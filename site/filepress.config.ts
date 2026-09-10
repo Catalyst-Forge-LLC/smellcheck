@@ -10,8 +10,8 @@ export default defineFilepressConfig({
 	tagline: 'Have you smell-checked that?',
 	url: 'https://smellcheck.dev',
 	author: 'Catalyst Forge LLC',
-	logo: '/logo.svg',
-	ogImage: '/logo.svg',
+	logo: '/logo.png',
+	ogImage: '/logo.png',
 	homePage: 'home',
 	nav: [
 		{ label: 'Home', href: '/' },

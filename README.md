@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="site/static/logo.svg" alt="Smell Check" width="128" />
+  <img src="site/static/logo.png" alt="Smell Check" width="128" />
 </p>
 
 # Smell Check
