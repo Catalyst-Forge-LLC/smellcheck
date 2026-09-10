@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 const here = fileURLToPath(import.meta.url);
 const packageRoot = join(dirname(here), "..");
 const packageJsonPath = join(packageRoot, "package.json");
+const skillFactsPath = join(packageRoot, "skills", "smellcheck", "SKILL_FACTS.md");
 
 export function compareSemver(a: string, b: string): number {
 	const pa = a.split(".").map((n) => Number(n));
@@ -39,6 +40,30 @@ export function applyVersion(raw: string, next: string): string {
 		throw new Error("Could not find a version field to bump in package.json");
 	}
 	return updated;
+}
+
+export function applySkillFactsVersion(raw: string, next: string): string {
+	const updated = raw
+		.replace(/^(version:\s*")([^"]+)(")/m, `$1${next}$3`)
+		.replace(/(\|\s*\*\*Version\*\*\s*\|\s*)([^\s|]+)(\s*\|)/, `$1${next}$3`);
+	if (
+		!updated.includes(`version: "${next}"`) ||
+		!updated.includes(`| **Version** | ${next} |`)
+	) {
+		throw new Error("Could not find version fields to bump in SKILL_FACTS.md");
+	}
+	return updated;
+}
+
+function syncSkillFacts(version: string): void {
+	const raw = readFileSync(skillFactsPath, "utf8");
+	if (
+		raw.includes(`version: "${version}"`) &&
+		raw.includes(`| **Version** | ${version} |`)
+	) {
+		return;
+	}
+	writeFileSync(skillFactsPath, applySkillFactsVersion(raw, version));
 }
 
 function pnpm(args: string[], inherit: boolean) {
@@ -91,16 +116,18 @@ async function bumpIfNeeded(): Promise<void> {
 	const pkg = JSON.parse(raw) as { name: string; version: string };
 	const published = await publishedVersion(pkg.name);
 	const next = nextPublishVersion(pkg.version, published);
-	if (!next) {
+	const version = next ?? pkg.version;
+	if (next) {
+		writeFileSync(packageJsonPath, applyVersion(raw, next));
+		console.log(
+			`Version ${pkg.version} is on npm already (latest ${published}). Bumped to ${next}.`,
+		);
+	} else {
 		console.log(
 			`Publishing ${pkg.version} (npm latest: ${published ?? "none"}).`,
 		);
-		return;
 	}
-	writeFileSync(packageJsonPath, applyVersion(raw, next));
-	console.log(
-		`Version ${pkg.version} is on npm already (latest ${published}). Bumped to ${next}.`,
-	);
+	syncSkillFacts(version);
 }
 
 async function main(): Promise<void> {

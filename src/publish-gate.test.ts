@@ -4,6 +4,7 @@ import { join } from "node:path";
 import { test } from "node:test";
 import { packageRoot } from "./index.js";
 import {
+	applySkillFactsVersion,
 	applyVersion,
 	bumpPatch,
 	compareSemver,
@@ -30,6 +31,15 @@ test("applyVersion keeps package.json formatting", () => {
 	assert.equal(
 		applyVersion(raw, "0.1.5"),
 		'{\n\t"name": "smellcheck",\n\t"version": "0.1.5",\n}\n',
+	);
+});
+
+test("applySkillFactsVersion updates yaml and table", () => {
+	const raw =
+		'---\nversion: "0.3.4"\n---\n\n| **Version** | 0.3.4 |\n';
+	assert.equal(
+		applySkillFactsVersion(raw, "0.3.5"),
+		'---\nversion: "0.3.5"\n---\n\n| **Version** | 0.3.5 |\n',
 	);
 });
 
