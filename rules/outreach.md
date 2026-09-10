@@ -39,7 +39,9 @@ rather than isolated on their own lines, which reads as marketing.
 
 **Easy out**, when there is an ask. Make it cheap to ignore. "No stress
 if the week's packed" is better than manufactured urgency. A close
-friend and an in-thread reply do not need a permission slip.
+friend and an in-thread reply do not need a permission slip. This is
+the desired form of core's permission-slip offer: you are making a
+favor cheap to decline, not apologizing for a public essay.
 
 **Thank-you, specific, soon.** One line naming what they actually did.
 That is what keeps the favor-budget refilling. A thank-you does not

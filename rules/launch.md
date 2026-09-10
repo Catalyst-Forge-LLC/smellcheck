@@ -35,7 +35,8 @@ Beyond `core.md` and `audit.md`:
   catalog. Everything else lives on the product page, behind one link.
   A builder-audience overlay may raise the cap.
 - **Fake humility.** "It's still early days and we have so much to
-  learn" is a tic, not modesty.
+  learn" is a tic, not modesty. A closer that asks permission to have
+  shipped the link is core's permission-slip offer, not this bullet.
 - **Manufactured urgency.** No countdowns, no launch-week pricing
   theater.
 - **Stacked CTAs.** One primary outbound link in the body. A second is

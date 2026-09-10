@@ -121,7 +121,8 @@ Only after Passes A-D:
 2. Flag hard bans from `core.md`: escalation formula, honest-framing,
    validation+profundity, narrative theater, setup-only
    sentences, synonym antithesis, helper theater.
-3. Flag cadence budgets: signpost openers, mic-drop closers, intensifier
+3. Flag cadence budgets: signpost openers, mic-drop closers,
+   permission-slip offer, intensifier
    filler, em-dash furniture, parallel-zinger density, flattened visual,
    bold-lead lists,
    riddle labels, cozy machinery, operator notes in the brochure,

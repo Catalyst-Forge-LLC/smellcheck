@@ -220,7 +220,8 @@ not single instances.
 
 Hidden verb and unparseable (including an orphaned referent, or
 insider code only the map-holder would get) fail in a single sentence.
-Flattened visual does too. One is a finding. The rest are density.
+Flattened visual does too. A permission-slip closer on a public post or
+page does too. One is a finding. The rest are density.
 
 - **Signpost openers.** "Here's…", "Let me…", "So…" starting section
   after section. A talk earns more than a blog post; when every section
@@ -229,6 +230,14 @@ Flattened visual does too. One is a finding. The rest are density.
 - **Mic-drop closers.** Short zinger fragments ending a section ("That
   was the job."). Effective in small doses; not every section may end
   on one.
+- **Permission-slip offer.** Published work offered as an imposition:
+  "I wrote it up if you want the story," "here's a post if anyone's
+  interested," "no pressure, but I wrote something." The tell is asking
+  permission to have shipped the link. One closer on a public post or
+  page is a finding. Carve-out: [`outreach.md`](./outreach.md) *easy
+  out* when you are asking a person for a favor. A real skip stays
+  ("the X post is parked"). A map stays ("If you want the thinking,
+  start with Wielding").
 - **Intensifier repetition.** "actually," "whole," "real," "very,"
   "really," "truly" recurring as filler. Keep only where the word marks
   a true contrast; cut the padding uses.
@@ -316,7 +325,7 @@ Flattened visual does too. One is a finding. The rest are density.
 | Mode | Extra watch |
 | --- | --- |
 | **Agent chat** | Honest framing, validation theater, suspense, dramatic apology, genuinely-stack, helper theater |
-| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, cataphoric teasers, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, hidden verb, sense collision, haughty hero-noun, em-dash furniture, triad packing, participial afterthoughts |
+| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, cataphoric teasers, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, hidden verb, sense collision, haughty hero-noun, em-dash furniture, triad packing, participial afterthoughts, permission-slip offer |
 
 The table is extra watch, not a partition. Chat theater infects drafts.
 Publish tells show up in chat.
@@ -362,6 +371,12 @@ Good: "I started it in 2019."
 Bad: "Here's the part that nobody tells you: the archive was too
 scattered to hand off."  
 Good: "The archive was too scattered to hand off."
+
+**Permission-slip offer**  
+Bad: "I wrote it up if you want the story."  
+Good: "I wrote it up."  
+(Still fine, as a map: "If you want the thinking, start with Wielding.")  
+(Still fine, on a DM with an ask: "No stress if the week's packed.")
 
 **Em dash furniture**  
 Bad: "Brain — the model plus the loop."  

@@ -56,7 +56,8 @@ validation+profundity, mechanism inflation, narrative
 theater, genuinely-stacks, dramatic apology, suspense, cataphoric
 teasers, setup sentences, em-dash furniture, triad packing including
 prefix-repetition and Not X. Not Y. But Z., empty marketing
-vocab, helper theater, signpost openers, mic-drop closers, intensifier
+vocab, helper theater, signpost openers, mic-drop closers, permission-slip
+offer, intensifier
 filler, parallel-zinger density, flattened visual, bold-lead lists,
 riddle labels, cozy
 machinery, operator notes in the brochure, hand-holding the obvious,
