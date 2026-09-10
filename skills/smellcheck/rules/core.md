@@ -205,7 +205,10 @@ The tell is the promise, not the grammar.
   same chant, different clothes.
 - Universality claims ("this applies to every domain") without evidence.
   That is a claims problem; do not only cologne it.
-- Setup sentences whose only job is to announce the next sentence
+- Setup sentences whose only job is to announce the next sentence.
+  A dummy maxim that only announces a count is this: "Four is the
+  whole set." before the sentence that says there were nine. Delete
+  the first. The news was already in the second.
 - Shared vocab empties: delve, unpack, unlock, unleash, harness (as
   marketing), empower, seamless, journey-as-metaphor, ecosystem-as-hype,
   etc. A term of art in the overlay ("harness" as an agent loop) still
@@ -312,6 +315,12 @@ page does too. One is a finding. The rest are density.
   *turns into*. Still fine: a stranded preposition a person would say
   ("the drive you control", "what it's for"). Do not write a
   schoolteacher ban on ending a sentence with a preposition.
+  Same clothes, different dummy: a **dummy maxim**. "This one is for
+  the reading." "Four is the whole set." Sounds like house law.
+  Carries no constraint the next sentence does not already carry.
+  Test: delete it. If nothing is lost, it was cologne. A real maxim
+  stays ("Spray the prose, not the author"). A mechanism stays
+  ("The next build is the site").
 - **Sense collision.** If a word has two common meanings, pick one,
   spell it, or change the neighbor. The nearest noun stole the verb, or
   the reading. Write that test. Do not write "this preposition is
@@ -365,7 +374,10 @@ the loop is theater.")
 Bad: "The idea worth keeping:"  
 Good: Just state the idea.  
 Bad: "That project started earlier than the repo, and I can date it."  
-Good: "I started it in 2019."
+Good: "I started it in 2019."  
+Bad: "Four is the whole set. An earlier draft had nine."  
+Good: "An earlier draft had nine. Five were behavior a competent model
+already produces when you ask."
 
 **Cataphoric teaser**  
 Bad: "Here's the part that nobody tells you: the archive was too
@@ -415,7 +427,9 @@ Good: "What this guide covers"
 Bad: "Once that understanding is in a person, the rest is easy."  
 Good: "Once a person can see it, the rest is easy."  
 Bad: "A folder of Markdown in, a fast prerendered site out."  
-Good: "Turns a folder of Markdown into a static site."
+Good: "Turns a folder of Markdown into a static site."  
+Bad: "This one is for the reading."  
+Good: "It reports the readings a silent reader can already take."
 
 **Sense collision**  
 Bad: "Competence aimed at the wrong peak scales it."  

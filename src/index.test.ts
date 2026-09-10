@@ -89,6 +89,9 @@ test("core names hidden verb, sense collision, and haughty hero-noun", () => {
 	assert.match(core, /Hidden verb/);
 	assert.match(core, /understanding is in a person/);
 	assert.match(core, /folder of Markdown in/);
+	assert.match(core, /dummy maxim/);
+	assert.match(core, /This one is for the reading/);
+	assert.match(core, /Four is the whole set/);
 	assert.match(core, /schoolteacher ban/);
 	assert.match(core, /Sense collision/);
 	assert.match(core, /nearest noun stole the verb/);
@@ -106,6 +109,8 @@ test("core names hidden verb, sense collision, and haughty hero-noun", () => {
 	assert.match(card, /Hidden verb/);
 	assert.match(card, /dummy frame/);
 	assert.match(card, /Markdown in, site out/);
+	assert.match(card, /Dummy maxim/);
+	assert.match(card, /Four is the whole set/);
 	assert.match(card, /heading resets/);
 	assert.match(card, /Sense collision/);
 	assert.match(card, /stole the reading/);
