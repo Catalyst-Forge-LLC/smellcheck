@@ -2,7 +2,7 @@
 title: Node
 ---
 
-Node 20+. v1 is `readRule`. Assembling core + genre + overlay is concatenation on purpose.
+Node 20+. The user-facing product is the Markdown in `rules/` and `skills/smellcheck/`. `readRule` loads those files. It does not smell-check text. Assembling core + genre + overlay is concatenation on purpose.
 
 ```ts
 import { readRule, files, catalog } from "smellcheck";

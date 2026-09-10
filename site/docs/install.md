@@ -2,13 +2,13 @@
 title: Install
 ---
 
-Wire a project. Node.js 20+. The package is [`smellcheck`](https://www.npmjs.com/package/smellcheck) on npm.
+Wire a project. Node.js 20+. The package is [`smellcheck`](https://www.npmjs.com/package/smellcheck) on npm. Installation supplies Markdown rules, a Cursor pocket card, an optional host pointer, and a skill folder. It does not install a scanner.
 
 ```bash
 pnpm add -D smellcheck
 ```
 
-Markdown you point an agent at. Nothing scans the tree. v1 has no CLI.
+Point an agent at those files and ask for a smell-check. Nothing scans the tree. v1 has no CLI. `readRule` only loads the same Markdown.
 
 No package? [Install the skill](/docs/skill) as a folder.
 

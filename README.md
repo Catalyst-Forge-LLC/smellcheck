@@ -4,15 +4,21 @@
 
 # Smell Check
 
-An installable writing rule set for AI agents.
+Review prose for vague claims, inflated language, and wording that has not earned its place.
 
-Editorial rules for prose that says something instead of sounding like it.
-AI-assisted or not. Written **Smell Check**. npm **`smellcheck`**. Prose, not
-code smells.
+Smell Check is Markdown rules plus a skill folder. An agent reads them and edits. Nothing scans the tree. v1 has no CLI. The package also exports `readRule` so a script can load the same files. That helper does not score prose.
 
-Spray the prose, not the author. Earn the word. Have you smell-checked that?
+Written **Smell Check**. npm **`smellcheck`**. Prose, not code smells.
 
 **Docs:** [smellcheck.dev/docs](https://smellcheck.dev/docs) · **Site:** [smellcheck.dev](https://smellcheck.dev)
+
+## Before / after
+
+**Before.** This release is a transformative step that will fundamentally change how operators recover from a failed deploy.
+
+**After.** This release adds a retry button on the failed-deploy screen. Operators can rerun the last job without opening a terminal.
+
+A strong word can stay when the sentence earns it: *The 2025 rewrite was transformative: checkout went from three forms to one.*
 
 ## Install
 
@@ -26,9 +32,9 @@ into `AGENTS.md` or `CLAUDE.md`. Full wiring: [docs](https://smellcheck.dev/docs
 
 Or skip npm and [install the skill](https://smellcheck.dev/docs/skill) as a folder.
 
-Markdown you point an agent at. Nothing scans the tree. v1 has no CLI.
+File map: [Files](https://smellcheck.dev/docs/files). Those paths exist in the published package under `rules/` and `skills/smellcheck/`.
 
-## Not a humanizer
+## Boundaries
 
 Smell Check does not determine whether a human or a model wrote something, and
 it does not try to fool AI detectors. Same standard either way. If the prose

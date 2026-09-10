@@ -1,38 +1,48 @@
 ---
 title: Have you smell-checked that?
-description: Smell-check the prose. Editorial rules that say something instead of sounding like it.
+description: Review prose for vague claims, inflated language, and wording that has not earned its place.
 order: 0
 ---
 
-You probably stopped noticing it.
+Review prose for vague claims, inflated language, and wording that has not earned its place. Smell Check gives your writing agent a shared editorial standard, with genre rules and room for your project's voice.
 
-**Smell Check.** Smell-check a document the way you spell-check it. Editorial rules for prose that says something instead of sounding like it. AI-assisted or not.
-
-Spray the prose, not the author. Bad prose is bad prose.
-
-## Not a humanizer
-
-Smell Check does not guess whether a human or a model wrote the sentences, and it does not try to fool detectors. Same standard either way.
-
-Core law, genre extras, a project overlay, then a smell audit and a claims pass.
-
-[Docs](/docs/) · [Install](/docs/install) · [Skill](/docs/skill) · [npm](https://www.npmjs.com/package/smellcheck) · [GitHub](https://github.com/Catalyst-Forge-LLC/smellcheck) · [Why the name](/about)
-
-## Earn the word.
-
-The problem is unearned language, not the dictionary. "Transformative" is fine if something transformed and you can say from what into what. Overlay the terms that pass *here*.
-
-Direct > clever. Clear > profound. Useful > insightful-sounding. Em dashes earn their place; most don't.
+An agent reads the rules and edits. Nothing scans the tree. v1 has no CLI.
 
 ## Before / after
 
-**Before.** At its core, building software isn't just about writing code. It's about bridging the gap between imagination and execution, creating solutions that don't merely function but fundamentally transform the way we interact with technology.
+**Before.** This release is a transformative step that will fundamentally change how operators recover from a failed deploy.
 
-**After.** Software turns an idea into something people can use. Good software does that reliably.
+**After.** This release adds a retry button on the failed-deploy screen. Operators can rerun the last job without opening a terminal.
+
+What changed: `core.md` escalation ("not just X") is not in this sentence, but the empty intensifiers are. "Transformative" and "fundamentally change" claim a category shift they do not describe. The after version keeps the same fact, a retry from the UI, and drops the unearned elevation.
+
+A strong word can stay when the sentence earns it:
+
+**Kept.** The 2025 rewrite was transformative: checkout went from three forms to one.
+
+"Transformative" names a before and an after. That is the earn-the-word test, not a banned-word list.
+
+[Docs](/docs/) · [Install](/docs/install) · [Skill](/docs/skill) · [npm](https://www.npmjs.com/package/smellcheck) · [GitHub](https://github.com/Catalyst-Forge-LLC/smellcheck)
+
+## How you run it
+
+Install the Markdown rules, or the [skill](/docs/skill) folder. Point an agent at them and ask for a smell-check or a publish pass. The npm package also exports `readRule` so a script can load the same files. That helper does not score prose.
+
+Supported first route:
+
+```bash
+pnpm add -D smellcheck
+```
+
+Copy `node_modules/smellcheck/rules/cursor.mdc` to `.cursor/rules/smellcheck.mdc`, write `docs/smellcheck.md`, then ask the agent to smell-check the page. Or skip npm and [install the skill](/docs/skill) as a folder.
+
+## Boundaries
+
+Smell Check does not guess whether a human or a model wrote the sentences, and it does not try to fool detectors. Same standard either way. Fuller positioning: [About](/about).
+
+Core law, then a genre file if you need one, then a project overlay. Overlay precedence is only this deep to start: do not fork `core.md`, and do not copy the bans into the overlay.
 
 ## The package
-
-Markdown you install and point an agent at. Nothing scans the tree. v1 has no CLI.
 
 | File | Use |
 | --- | --- |
@@ -43,10 +53,6 @@ Markdown you install and point an agent at. Nothing scans the tree. v1 has no CL
 | `cursor.mdc` | Pocket card. Copy into `.cursor/rules/`. |
 | `agents.md` | Pointer. Paste into `AGENTS.md` or `CLAUDE.md`. |
 
-```bash
-pnpm add -D smellcheck
-```
-
-On [npm](https://www.npmjs.com/package/smellcheck). [Skill](/docs/skill) as a folder. [Install](/docs/install).
+Maintained file map: [Files](/docs/files).
 
 Built by [Catalyst Forge LLC](https://www.catalystforge.com). MIT.
