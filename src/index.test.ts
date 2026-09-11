@@ -377,11 +377,10 @@ function storeZipNames(buf: Buffer): string[] {
 
 test("readme states what the package is", () => {
 	const readme = readFileSync(join(packageRoot, "README.md"), "utf8");
-	assert.match(readme, /installable writing rule set/i);
-	assert.match(readme, /## Not a humanizer/);
+	assert.match(readme, /Markdown rules plus a skill folder/);
+	assert.match(readme, /## Boundaries/);
 	assert.match(readme, /does not try to fool AI detectors/);
-	assert.match(readme, /Spray the prose, not the author/);
-	assert.match(readme, /Earn the word/);
+	assert.match(readme, /That helper does not score prose/);
 	assert.match(readme, /smellcheck\.dev\/docs/);
 	assert.match(readme, /Nothing scans the tree/);
 });
