@@ -1,12 +1,14 @@
 ---
-title: Introduction
+title: What it does
 ---
 
-**Smell Check** is an installable writing rule set for AI agents. Review prose for vague claims, inflated language, and wording that has not earned its place.
+**Smell Check** is an installable writing skill for AI agents. Review prose for vague claims, inflated language, and wording that has not earned its place.
 
 An agent reads the Markdown and edits. Nothing scans the tree. v1 has no CLI. The TypeScript export is `readRule`, a file loader, not a checker.
 
-Written **Smell Check**. npm **`smellcheck`**. Prose, not code smells.
+**[Get started](/docs/install)** — install the skill in your agent, then use it.
+
+Written **Smell Check**. Prose, not code smells.
 
 ## Before / after
 
@@ -37,9 +39,4 @@ Genre files assume `core.md`. Do not fork `core.md`.
 
 Smell Check does not guess whether a human or a model wrote the sentences, and it does not try to fool detectors. Same standard either way. [About](/about).
 
-## Start
-
-- [Install](/docs/install) — npm package, pocket card, overlay at `docs/smellcheck.md`
-- [Skill](/docs/skill) — a folder or ZIP the agent loads on demand
-- Host pointer — paste [`agents.md`](/rules/agents.md) into `AGENTS.md` or `CLAUDE.md`
-- [Files](/docs/files) — the maintained package map
+Host pointer — paste [`agents.md`](/rules/agents.md) into `AGENTS.md` or `CLAUDE.md`. File map: [Files](/docs/files).

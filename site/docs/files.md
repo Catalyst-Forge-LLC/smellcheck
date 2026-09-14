@@ -2,7 +2,7 @@
 title: Files
 ---
 
-Markdown you install and point an agent at. Canon lives in `rules/` in this repo. The [skill](/docs/skill) folder carries copies of the `.md` files, not `cursor.mdc`.
+Markdown you install and point an agent at. Canon lives in `rules/` in this repo. The [skill](/docs/install) folder carries copies of the `.md` files, not `cursor.mdc`.
 
 | File | Use |
 | --- | --- |

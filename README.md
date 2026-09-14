@@ -4,13 +4,26 @@
 
 # Smell Check
 
-Review prose for vague claims, inflated language, and wording that has not earned its place.
+An installable writing skill for AI agents.
 
-Smell Check is Markdown rules plus a skill folder. An agent reads them and edits. Nothing scans the tree. v1 has no CLI. The package also exports `readRule` so a script can load the same files. That helper does not score prose.
+Review prose for vague claims, inflated language, and wording that
+has not earned its place.
 
-Written **Smell Check**. npm **`smellcheck`**. Prose, not code smells.
+Smell Check is Markdown rules plus a skill folder. An agent reads
+them and edits. Nothing scans the tree. v1 has no CLI. The package
+also exports `readRule` so a script can load the same files. That helper does not score prose.
 
-**Docs:** [smellcheck.dev/docs](https://smellcheck.dev/docs) · **Site:** [smellcheck.dev](https://smellcheck.dev)
+Written **Smell Check**. Prose, not code smells.
+
+**Get started:** pick the agent, install the skill, then run the
+before sentence —
+[smellcheck.dev/docs/install](https://smellcheck.dev/docs/install).
+
+- [Cursor](https://smellcheck.dev/docs/install#cursor)
+- [Claude Code](https://smellcheck.dev/docs/install#claude-code)
+- [Claude.ai](https://smellcheck.dev/docs/install#claudeai)
+
+**Site:** [smellcheck.dev](https://smellcheck.dev)
 
 ## Before / after
 
@@ -20,19 +33,39 @@ Written **Smell Check**. npm **`smellcheck`**. Prose, not code smells.
 
 A strong word can stay when the sentence earns it: *The 2025 rewrite was transformative: checkout went from three forms to one.*
 
-## Install
+Ask:
+
+> Use Smell Check on `deploy.md`. Follow the installed Smell Check
+> skill. Smell-check that sentence.
+
+The file should change. The empty intensifiers should go. The fact
+should stay.
+
+## Other installation methods
+
+npm supplies the rule files and the skill folder. It does not
+register the skill with the agent.
 
 ```bash
 pnpm add -D smellcheck
 ```
 
-Copy `node_modules/smellcheck/rules/cursor.mdc` to `.cursor/rules/smellcheck.mdc`.
-Write `docs/smellcheck.md` as the overlay. Optional: paste `rules/agents.md`
-into `AGENTS.md` or `CLAUDE.md`. Full wiring: [docs](https://smellcheck.dev/docs/install).
+Copy `node_modules/smellcheck/skills/smellcheck/` into the same
+destination the [Get started](https://smellcheck.dev/docs/install)
+page names for your agent.
 
-Or skip npm and [install the skill](https://smellcheck.dev/docs/skill) as a folder.
+To keep the rules in every Cursor chat, copy
+`node_modules/smellcheck/rules/cursor.mdc` to
+`.cursor/rules/smellcheck.mdc`. Write `docs/smellcheck.md` as the
+overlay. Optional: paste `rules/agents.md` into `AGENTS.md` or
+`CLAUDE.md`.
 
-File map: [Files](https://smellcheck.dev/docs/files). Those paths exist in the published package under `rules/` and `skills/smellcheck/`.
+Updating the npm dependency does not refresh a folder you already
+copied. Copy again after you bump the package.
+
+File map: [Files](https://smellcheck.dev/docs/files). Those paths
+exist in the published package under `rules/` and
+`skills/smellcheck/`.
 
 ## Boundaries
 

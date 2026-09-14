@@ -6,7 +6,7 @@ const npm = 'https://www.npmjs.com/package/smellcheck';
 export default defineFilepressConfig({
 	title: 'Smell Check',
 	description:
-		'Have you smell-checked that? Editorial rules for prose that says something instead of sounding like it.',
+		'An installable writing skill for AI agents. Editorial rules for prose that says something instead of sounding like it.',
 	tagline: 'Have you smell-checked that?',
 	url: 'https://smellcheck.dev',
 	author: 'Catalyst Forge LLC',
@@ -15,16 +15,15 @@ export default defineFilepressConfig({
 	homePage: 'home',
 	nav: [
 		{ label: 'Home', href: '/' },
+		{ label: 'Get started', href: '/docs/install' },
 		{ label: 'Docs', href: '/docs/' },
-		{ label: 'Install', href: '/docs/install' },
-		{ label: 'Skill', href: '/docs/skill' },
 		{ label: 'Posts', href: '/posts' },
 		{ label: 'About', href: '/about' },
 		{ label: 'GitHub', href: github, icon: 'github' }
 	],
 	footerLinks: [
 		{ label: 'RSS', href: '/rss.xml' },
-		{ label: 'Docs', href: '/docs/' },
+		{ label: 'Get started', href: '/docs/install' },
 		{ label: 'npm', href: npm },
 		{ label: 'GitHub', href: github, icon: 'github' },
 		{ label: 'AppFacts', href: 'https://appfacts.dev/v#af1.eNp1UUtrAjEQ_ivLd45Kr7kKhRbby3orpYzJmE3NiyS7ZRH_e4krRQ-9TSbfa2bOmCCfBAJ5hkTv2bluO7A6QaDOqTWdPWTKMwRKpToWSJCqdmIIOKs4lIZ6e9kvCHWCPMNRMCOZ9rOfE_cq21RF90oTLTUE8hiqvfq-R83r73IVmJ0NBhLbvofAEEu9vV0c9dFRbr6J1IkMf3kKZDhDIoXkcRHQnArkxxkBEj-ZgnGcG-NBotOcXJw9h4qLWMCG69E6TplLuRF0VGPDULUxdIvZwvkUKJP6M3oI1-LccncUdMfacKeiT-N1lMY9jNbptqf_Bxmi57RscKg1FbnZlHYe1a6z1jw1J06x2BrzfIcytg7jYa2i32ypkptLXT3HbHi1223vNHD5BdsPrdY' },

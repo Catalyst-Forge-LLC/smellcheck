@@ -189,7 +189,7 @@ test("host pointer points at core and does not copy the bans", () => {
 	assert.match(pointer, /AGENTS\.md/);
 	assert.match(pointer, /CLAUDE\.md/);
 	assert.match(pointer, /Nothing in this package scans the tree/);
-	assert.match(pointer, /smellcheck\.dev\/docs\/skill/);
+	assert.match(pointer, /smellcheck\.dev\/docs\/install/);
 	assert.doesNotMatch(pointer, /It's not just X/i);
 	assert.doesNotMatch(pointer, /The honest evaluation/i);
 	assert.doesNotMatch(pointer, /## Hard bans/);
@@ -391,6 +391,8 @@ test("install and files pages name the three hooks and finish the raw list", () 
 		"utf8",
 	);
 	assert.match(install, /Nothing scans the tree/);
+	assert.match(install, /Which agent do you use/);
+	assert.match(install, /Other installation methods/);
 	assert.match(install, /AGENTS\.md/);
 	assert.match(install, /CLAUDE\.md/);
 	assert.match(install, /docs\/smellcheck\.md/);
@@ -423,7 +425,9 @@ test("install and files pages name the three hooks and finish the raw list", () 
 		"utf8",
 	);
 	assert.match(filepress, /href: '\/docs\/install'/);
-	assert.match(filepress, /href: '\/docs\/skill'/);
+	assert.match(filepress, /Get started/);
+	assert.doesNotMatch(filepress, /label: 'Skill'/);
+	assert.doesNotMatch(filepress, /label: 'Install'/);
 	assert.doesNotMatch(filepress, /href: '\/install'/);
 	assert.doesNotMatch(filepress, /href: '\/skill'/);
 });
@@ -431,7 +435,10 @@ test("install and files pages name the three hooks and finish the raw list", () 
 test("docs nav has a markdown file for every item", () => {
 	const nav = JSON.parse(
 		readFileSync(join(packageRoot, "site", "docs", "_nav.json"), "utf8"),
-	) as { sections: Array<{ items: Array<{ id: string }> }> };
+	) as {
+		sections: Array<{ items: Array<{ id: string }> }>;
+		aliases?: Array<{ id: string }>;
+	};
 	for (const section of nav.sections) {
 		for (const item of section.items) {
 			assert.ok(
@@ -439,6 +446,12 @@ test("docs nav has a markdown file for every item", () => {
 				item.id,
 			);
 		}
+	}
+	for (const item of nav.aliases ?? []) {
+		assert.ok(
+			existsSync(join(packageRoot, "site", "docs", `${item.id}.md`)),
+			item.id,
+		);
 	}
 	execFileSync("node", [join(packageRoot, "site", "scripts", "build-docs.mjs")], {
 		cwd: join(packageRoot, "site"),

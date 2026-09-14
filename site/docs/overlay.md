@@ -60,6 +60,6 @@ Add house maxims or verbatim testimony below.
 
 ## After install
 
-Wire the repo on [Install](/docs/install), then fill this file from the skeleton. Point "Full rules" at `node_modules/smellcheck/rules/core.md`.
+Wire the repo on [Get started](/docs/install), then fill this file from the skeleton. Point "Full rules" at `node_modules/smellcheck/rules/core.md`.
 
-[Install](/docs/install) · [Files](/docs/files)
+[Get started](/docs/install) · [Files](/docs/files)

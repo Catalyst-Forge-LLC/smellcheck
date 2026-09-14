@@ -23,6 +23,6 @@ https://smellcheck.dev/rules/). Reference docs: core only.
 
 Cursor always-on digest is a different hook: copy `cursor.mdc` to
 `.cursor/rules/smellcheck.mdc`. The skill loads on demand:
-https://smellcheck.dev/docs/skill
+https://smellcheck.dev/docs/install
 
 Nothing in this package scans the tree.
