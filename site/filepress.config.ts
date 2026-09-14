@@ -24,6 +24,7 @@ export default defineFilepressConfig({
 	footerLinks: [
 		{ label: 'RSS', href: '/rss.xml' },
 		{ label: 'Get started', href: '/docs/install' },
+		{ label: 'Posts', href: '/posts' },
 		{ label: 'npm', href: npm },
 		{ label: 'GitHub', href: github, icon: 'github' },
 		{ label: 'AppFacts', href: 'https://appfacts.dev/v#af1.eNp1UUtrAjEQ_ivLd45Kr7kKhRbby3orpYzJmE3NiyS7ZRH_e4krRQ-9TSbfa2bOmCCfBAJ5hkTv2bluO7A6QaDOqTWdPWTKMwRKpToWSJCqdmIIOKs4lIZ6e9kvCHWCPMNRMCOZ9rOfE_cq21RF90oTLTUE8hiqvfq-R83r73IVmJ0NBhLbvofAEEu9vV0c9dFRbr6J1IkMf3kKZDhDIoXkcRHQnArkxxkBEj-ZgnGcG-NBotOcXJw9h4qLWMCG69E6TplLuRF0VGPDULUxdIvZwvkUKJP6M3oI1-LccncUdMfacKeiT-N1lMY9jNbptqf_Bxmi57RscKg1FbnZlHYe1a6z1jw1J06x2BrzfIcytg7jYa2i32ypkptLXT3HbHi1223vNHD5BdsPrdY' },
