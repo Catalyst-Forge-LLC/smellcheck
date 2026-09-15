@@ -15,7 +15,7 @@ Docs source: `docs/*.md` + `_nav.json`. FilePress mounts `docs/dist` at `/docs`.
 
 From the package root: `pnpm site:dev`, `pnpm site:build`, `pnpm ship`.
 
-If [LocalBerth](https://www.npmjs.com/package/localberth) is installed, this site stays on **5181** as `smellcheck-site`.
+If [LocalSlip](https://www.npmjs.com/package/localslip) is installed, this site stays on **5181** as `smellcheck-site`.
 
 ## Deploy (Cloudflare Pages)
 
