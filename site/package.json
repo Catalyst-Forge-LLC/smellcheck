@@ -5,7 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"docs:build": "node scripts/build-docs.mjs",
-		"dev": "node ../scripts/sync-skill-static.mjs && pnpm docs:build && node ../scripts/ensure-lease.mjs smellcheck-site 5181 && filepress dev --host 0.0.0.0",
+		"dev": "node ../scripts/sync-skill-static.mjs && pnpm docs:build && localslip claim smellcheck-site --port 5181 && filepress dev --host 0.0.0.0",
 		"build": "node ../scripts/sync-skill-static.mjs && pnpm docs:build && filepress build",
 		"preview": "filepress preview",
 		"check": "filepress check",
