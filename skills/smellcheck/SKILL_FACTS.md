@@ -2,7 +2,7 @@
 skill_facts_version: "0.1.0"
 name: smellcheck
 developer: Catalyst Forge
-version: "0.3.10"
+version: "0.3.11"
 status: active
 license: MIT
 kind: cursor-skill
@@ -57,7 +57,7 @@ credits:
 | | |
 |---|---|
 | **Developer** | Catalyst Forge |
-| **Version** | 0.3.10 |
+| **Version** | 0.3.11 |
 | **Status** | active |
 | **License** | MIT |
 | **Kind** | cursor-skill |
