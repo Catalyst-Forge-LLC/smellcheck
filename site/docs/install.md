@@ -2,15 +2,24 @@
 title: Get started
 ---
 
-Install the skill in your agent, then use it. You do not need Node or npm for this path. Nothing scans the tree. v1 has no CLI.
+Install the skill in your agent, then use it. You do not need Node or npm for this path. Nothing scans the tree. v1 has no CLI. The bundled defaults are enough for the first run. An overlay is optional later.
+
+## Supported hosts
+
+| Host | Scope | Required | Notes |
+| --- | --- | --- | --- |
+| Cursor | Project or user skills folder | Readable skill folder | Host listing / discovery not independently verified in this docs pass |
+| Claude Code | Project or `~/.claude/skills/` | Readable skill folder | Same |
+| Claude.ai | Uploaded skill zip | Chat (or files if the host provides them) | Same |
+| Other agents that read `SKILL.md` | Manual copy | Readable skill folder | Unverified |
+
+A folder on disk is not proof the agent loaded the skill. Prefer the host’s skill list or a visible file-read of `SKILL.md`. A polished rewrite alone does not prove loading.
 
 ## Which agent do you use?
 
 - [Cursor](#cursor)
 - [Claude Code](#claude-code)
 - [Claude.ai](#claudeai)
-
-A folder on disk is not proof the agent found the skill. The first run below is the check.
 
 ## Cursor
 
@@ -32,27 +41,36 @@ The zip does not include the always-on pocket card. That is under [Other install
 
 ### Confirm it
 
-Ask Cursor to use Smell Check on the before sentence below. If it edits toward a concrete fact and drops the unearned elevation, it found the skill.
+If Cursor lists installed skills, confirm `smellcheck`. Otherwise ask it to open `SKILL.md` from that folder and quote the first heading.
 
 ### Try it
 
-Save this sentence as `deploy.md` in the project:
+Save this as `deploy.md` in the project:
 
 ```markdown
+# Facts
+
+- This release adds a Retry button to the failed-deploy screen.
+- It reruns the last failed job without opening a terminal.
+
+# Draft
+
 This release is a transformative step that will fundamentally change how operators recover from a failed deploy.
 ```
 
 Then ask:
 
-> Use Smell Check on `deploy.md`. Follow the installed Smell Check skill. Smell-check that sentence.
+> Use Smell Check to revise `deploy.md` using only the supplied facts. Follow the installed Smell Check skill. Edit that file. Do not add capabilities.
 
 ### Find the result
 
-The file should change. A successful first run looks like this shape, not identical wording from every model:
+Open `deploy.md`. Success looks like this shape, not identical wording from every model:
 
-- The same fact (a retry after a failed deploy)
-- The empty intensifiers gone
-- No new claims the sentence did not earn
+- Uses only the supplied facts (retry from the UI)
+- Empty intensifiers gone
+- No new claims the facts did not supply
+
+That the rewrite worked is not the same check as discovery.
 
 ## Claude Code
 
@@ -70,15 +88,30 @@ Unzip, then put the folder in the repo you are editing:
 
 ### Confirm it
 
-Same check as Cursor: the first run must edit the sentence.
+If Claude Code lists skills, confirm `smellcheck`. Otherwise ask it to open `SKILL.md` from that folder and quote the first heading.
 
 ### Try it
 
-Same request as [Cursor](#try-it).
+Save this as `deploy.md` in the repo:
+
+```markdown
+# Facts
+
+- This release adds a Retry button to the failed-deploy screen.
+- It reruns the last failed job without opening a terminal.
+
+# Draft
+
+This release is a transformative step that will fundamentally change how operators recover from a failed deploy.
+```
+
+Then ask:
+
+> Use Smell Check to revise `deploy.md` using only the supplied facts. Follow the installed Smell Check skill. Edit that file. Do not add capabilities.
 
 ### Find the result
 
-Same file as [Cursor](#find-the-result).
+Open `deploy.md`. Look for a concrete rewrite from the supplied facts and no invented features.
 
 ## Claude.ai
 
@@ -92,23 +125,29 @@ Do not unzip. Open Settings → Customize → Skills and upload the zip.
 
 ### Confirm it
 
-Start a chat and run the request below. If the agent smell-checks the sentence against the installed rules, it loaded the skill.
+If the product shows installed skills, confirm `smellcheck`. Otherwise ask the chat to name the Smell Check core rule file it must read.
 
 ### Try it
 
-Paste the before sentence, then ask:
+Paste, then ask:
 
-> Use Smell Check on this sentence. Follow the installed Smell Check skill. Smell-check it.
+> Use Smell Check on this pasted publication prose. Follow the installed Smell Check skill. Return the revised prose in chat. Use only the supplied facts. Do not add capabilities. Do not invent a file named deploy.md.
 >
-> This release is a transformative step that will fundamentally change how operators recover from a failed deploy.
+> Facts: This release adds a Retry button to the failed-deploy screen. It reruns the last failed job without opening a terminal.
+>
+> Draft: This release is a transformative step that will fundamentally change how operators recover from a failed deploy.
 
 ### Find the result
 
-The revised sentence appears in the chat. When the agent can write files, it edits `deploy.md`.
+The revised sentence appears in the chat. Pasted prose stays in chat unless you name an output file. Do not expect an edit to `deploy.md` from this route.
 
 ## After the review
 
-Smell Check already made the edit. Read the result. Keep a strong word when the sentence earns it. Put project voice and carve-outs in the [overlay](/docs/overlay).
+Smell Check already made the edit (or returned the revision in chat). Read the result. Keep a strong word when the sentence earns it.
+
+### Update or remove
+
+Replace the installed `smellcheck` folder (or re-upload the zip) to update. Delete that folder or remove the uploaded skill to uninstall. Copied skills do not refresh when you bump the npm package. Overlays you write stay yours.
 
 ## Other ways to ask
 
@@ -134,7 +173,11 @@ Updating the npm dependency does not refresh a folder you already copied. Copy a
 
 Node.js 20+. The package is [`smellcheck`](https://www.npmjs.com/package/smellcheck) on npm.
 
-To keep Smell Check in every Cursor chat, also copy `node_modules/smellcheck/rules/cursor.mdc` to `.cursor/rules/smellcheck.mdc`, or download [cursor.mdc](/rules/cursor.mdc) to that path. Write a project [overlay](/docs/overlay) at `docs/smellcheck.md`. Optional: paste `node_modules/smellcheck/rules/agents.md` into `AGENTS.md` or `CLAUDE.md`.
+Optional, after the first run works:
+
+- Write a project [overlay](/docs/overlay) at `docs/smellcheck.md` for house terminology and protected wording. A missing overlay is not a setup failure.
+- To keep Smell Check guidance in more Cursor chats, copy `node_modules/smellcheck/rules/cursor.mdc` to `.cursor/rules/smellcheck.mdc`, or download [cursor.mdc](/rules/cursor.mdc). Project rules stay project-local unless you put them in a user-wide rules path your host documents.
+- Paste `node_modules/smellcheck/rules/agents.md` into `AGENTS.md` or `CLAUDE.md` if you want a pointer there.
 
 Or clone the [repo](https://github.com/Catalyst-Forge-LLC/smellcheck) and copy `skills/smellcheck/` and `rules/`.
 
@@ -145,7 +188,7 @@ Catalog and Node: [Files](/docs/files) · [Node](/docs/node).
 - Cursor: `~/.cursor/skills/smellcheck/`
 - Claude Code: `~/.claude/skills/smellcheck/`
 
-Same folder shape. The first-run check is the same.
+Same folder shape. Discovery and first-use checks are the same.
 
 ## One-off
 

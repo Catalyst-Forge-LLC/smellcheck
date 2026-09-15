@@ -2,8 +2,8 @@
 name: smellcheck
 description: >-
   Editorial rules for publishable prose. Use when drafting pages,
-  essays, emails, posts, filings, or papers, or to spray, smell-check,
-  audit, or do a publish pass. Not for code, diffs, or chat-only.
+  essays, emails, posts, filings, or papers; or spray, smell-check,
+  audit, or publish. Named file or pasted prose. Not for code or diffs.
 ---
 
 # Smell Check
@@ -34,17 +34,32 @@ it only when they have to decode. Em dashes earn their place; most don't. Judge 
 sentence, not the byline. Spray the prose, not the author. Earn the
 word. Filings use `rules/civic.md`. Papers use `rules/academic.md`.
 
+## Input and delivery
+
+- **Named file.** Edit that file when the user authorizes an edit.
+- **Pasted publication prose.** Return the revised prose in chat unless
+  the user names an output file. Do not invent a filename such as
+  `deploy.md` from surrounding website copy.
+- Use only facts the user supplied. If the draft is vague and no facts
+  are supplied, ask what concrete change landed rather than inventing
+  features.
+
 ## Overlay
 
-Keep a short project overlay at `docs/smellcheck.md`. Point at this
-package, then only:
+The bundled rules are enough for a first run. A missing overlay is not
+a setup task.
+
+If the project already has `docs/smellcheck.md`, read it. An overlay
+is for house terminology, protected wording, and genre preferences.
+Point at this package, then only:
 
 - Pronouns per surface
 - Terms that pass the applicability heuristic *here*, with one-line why
 - Protected maxims / testimony
 - Genre extras that are house law
 
-Do not fork `core.md`. Do not restate the hard bans.
+Do not fork `core.md`. Do not restate the hard bans. Do not demand that
+the user create an overlay before revising prose.
 
 ## When to open a genre file
 
@@ -63,8 +78,8 @@ inject a scene to satisfy essay law.
 
 ## Publish pass
 
-Read `rules/core.md` plus the overlay, then `rules/audit.md` or
-`rules/claims.md`. Both are additive. Do not use the prompt alone.
+Read `rules/core.md` plus the overlay if present, then `rules/audit.md`
+or `rules/claims.md`. Both are additive. Do not use the prompt alone.
 
 ## Example asks
 

@@ -262,7 +262,7 @@ test("skill has hybrid frontmatter and does not restate the escalation ban", () 
 		"utf8",
 	);
 	assert.match(skill, /^---\nname: smellcheck\n/m);
-	assert.match(skill, /Not for code, diffs/);
+	assert.match(skill, /Not for code or diffs/);
 	assert.match(skill, /Read `rules\/core\.md` in this folder/);
 	assert.match(skill, /https:\/\/smellcheck\.dev\/rules\/core\.md/);
 	assert.match(skill, /When to open a genre file/);

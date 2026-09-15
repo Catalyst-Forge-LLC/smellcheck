@@ -12,11 +12,15 @@ Written **Smell Check**. Prose, not code smells.
 
 ## Before / after
 
+Labeled example. The retry button is a **supplied fact**, not something the vague sentence already contains.
+
+**Facts.** This release adds a Retry button to the failed-deploy screen. It reruns the last failed job without opening a terminal.
+
 **Before.** This release is a transformative step that will fundamentally change how operators recover from a failed deploy.
 
 **After.** This release adds a retry button on the failed-deploy screen. Operators can rerun the last job without opening a terminal.
 
-The after version keeps the same fact. It drops unearned elevation. `core.md` treats that register as a smell, not as a list of forbidden words.
+The after version uses only the supplied facts. It drops unearned elevation. Without those facts, asking what concrete change landed is acceptable. `core.md` treats that register as a smell, not as a list of forbidden words.
 
 **Kept.** The 2025 rewrite was transformative: checkout went from three forms to one.
 

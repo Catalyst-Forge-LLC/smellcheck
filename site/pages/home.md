@@ -10,11 +10,15 @@ An agent reads the rules and edits. Nothing scans the tree. v1 has no CLI.
 
 ## Before / after
 
+Labeled example. The retry button is a **supplied fact**, not something the vague sentence already contains.
+
+**Facts.** This release adds a Retry button to the failed-deploy screen. It reruns the last failed job without opening a terminal.
+
 **Before.** This release is a transformative step that will fundamentally change how operators recover from a failed deploy.
 
 **After.** This release adds a retry button on the failed-deploy screen. Operators can rerun the last job without opening a terminal.
 
-What changed: empty intensifiers. "Transformative" and "fundamentally change" claim a category shift they do not describe. The after version keeps the same fact, a retry from the UI, and drops the unearned elevation.
+What changed: empty intensifiers. "Transformative" and "fundamentally change" claim a category shift they do not describe. The after version uses only the supplied facts and drops the unearned elevation. Without those facts, asking what concrete change landed is an acceptable result. Do not invent capabilities.
 
 A strong word can stay when the sentence earns it:
 

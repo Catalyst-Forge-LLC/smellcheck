@@ -27,19 +27,26 @@ before sentence —
 
 ## Before / after
 
+Labeled example. The retry button is a **supplied fact**, not something
+the vague sentence already contains.
+
+**Facts.** This release adds a Retry button to the failed-deploy screen.
+It reruns the last failed job without opening a terminal.
+
 **Before.** This release is a transformative step that will fundamentally change how operators recover from a failed deploy.
 
 **After.** This release adds a retry button on the failed-deploy screen. Operators can rerun the last job without opening a terminal.
 
 A strong word can stay when the sentence earns it: *The 2025 rewrite was transformative: checkout went from three forms to one.*
 
-Ask:
+Ask (after installing the skill):
 
-> Use Smell Check on `deploy.md`. Follow the installed Smell Check
-> skill. Smell-check that sentence.
+> Use Smell Check to revise `deploy.md` using only the supplied facts.
+> Follow the installed Smell Check skill. Edit that file. Do not add
+> capabilities.
 
-The file should change. The empty intensifiers should go. The fact
-should stay.
+Without those facts, asking what concrete change landed is acceptable.
+Do not invent capabilities.
 
 ## Other installation methods
 
