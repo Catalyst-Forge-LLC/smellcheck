@@ -6,17 +6,17 @@
 
 An installable writing skill for AI agents.
 
-Review prose for vague claims, inflated language, and wording that
-has not earned its place.
+Smell Check edits the prose you give it to remove vague claims,
+inflated language, and wording that has not earned its place. You get
+revised text back, not a report.
 
 Smell Check is Markdown rules plus a skill folder. An agent reads
-them and edits. Nothing scans the tree. v1 has no CLI. The package
-also exports `readRule` so a script can load the same files. That helper does not score prose.
+them and edits. Nothing scans the tree. v1 has no CLI.
 
 Written **Smell Check**. Prose, not code smells.
 
 **Get started:** pick the agent, install the skill, then run the
-before sentence —
+before sentence:
 [smellcheck.dev/docs/install](https://smellcheck.dev/docs/install).
 
 - [Cursor](https://smellcheck.dev/docs/install#cursor)
@@ -61,11 +61,14 @@ Copy `node_modules/smellcheck/skills/smellcheck/` into the same
 destination the [Get started](https://smellcheck.dev/docs/install)
 page names for your agent.
 
-To keep the rules in every Cursor chat, copy
+To keep the rules in every Cursor chat in that project, copy
 `node_modules/smellcheck/rules/cursor.mdc` to
-`.cursor/rules/smellcheck.mdc`. Write `docs/smellcheck.md` as the
-overlay. Optional: paste `rules/agents.md` into `AGENTS.md` or
-`CLAUDE.md`.
+`.cursor/rules/smellcheck.mdc`. Optional: write `docs/smellcheck.md`
+as a project overlay for house terms and protected wording, and paste
+`rules/agents.md` into `AGENTS.md` or `CLAUDE.md`.
+
+The package also exports `readRule` so a script can load the same
+files. That helper does not score prose.
 
 Updating the npm dependency does not refresh a folder you already
 copied. Copy again after you bump the package.

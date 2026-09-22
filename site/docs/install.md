@@ -141,7 +141,7 @@ Paste, then ask:
 
 The revised sentence appears in the chat. Pasted prose stays in chat unless you name an output file. Do not expect an edit to `deploy.md` from this route.
 
-## After the review
+## After the edit
 
 Smell Check already made the edit (or returned the revision in chat). Read the result. Keep a strong word when the sentence earns it.
 
