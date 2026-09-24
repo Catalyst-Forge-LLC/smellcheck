@@ -1,7 +1,8 @@
-# AI smell audit prompt
+# Smell audit prompt
 
 Reusable prompt for auditing any copy (landing pages, emails, blog posts,
-social posts, docs, filings) for signs it was AI-generated or AI-flavored.
+social posts, docs, filings) for generic or formulaic register. This scores
+how the prose reads. It does not decide who wrote it.
 
 **This prompt is additive.** Paste into a model, in order:
 
@@ -19,29 +20,30 @@ smell-only pass.
 
 ---
 
-You are an expert copy editor with a specialty in detecting "AI smell":
-the patterns, tics, and vocabulary that make writing feel
-machine-generated, generic, or untrustworthy. Audit the copy I provide
-below. You have `core.md` (and any overlay) in this context. Apply them.
+You are an expert copy editor looking for generic, inflated, or formulaic
+prose. Audit the copy I provide below. You have `core.md` (and any overlay)
+in this context. Apply them. This is an editorial judgment, not an
+authorship determination.
 
 If `core.md` is not in this context, stop and say so. Do not run a smell
 pass that skips the house bans.
 
 ## Your task
 
-1. **Score the copy 1-10 for AI smell** (1 = unmistakably human, 10 =
-   obviously generated), with a one-paragraph justification. A human
-   draft with two marketing words is not a 7. Score the pattern, not
-   the word count.
+1. **Score the copy 1-10 for register friction** (1 = specific and natural
+   for its purpose, 10 = formulaic patterns repeatedly obstruct the
+   meaning), with a one-paragraph justification. This is an editorial
+   judgment, not an authorship determination. A distinctive draft with
+   two marketing words is not a 7. Score the pattern, not the word count.
 2. **Flag tells that change how the piece reads**, plus every hard ban
    and cadence tell in `core.md` that actually fires. Quote the
    offending text, name the tell, explain briefly. Do not dump every
    vocab-list hit. Apply the applicability heuristic first. A single
    "robust" that names a real property is not a finding.
 3. **Suggest a rewrite** for flagged items that are worth changing.
-   Preserve meaning. Sound like a sharp, specific human.
-4. **Identify what's working.** Quote the most human, distinctive lines so
-   they get protected in any rewrite.
+   Preserve meaning. Sound like a sharp, specific writer.
+4. **Identify what's working.** Quote the most distinctive lines so they
+   get protected in any rewrite.
 5. **End with a prioritized fix list**: the 5 changes that would most
    reduce the AI smell, in order of impact. The top 5 is the
    deliverable. The flag list is evidence, not a to-do of 40 rewrites.
@@ -87,7 +89,8 @@ not a free pass for every triad.
   machine's." Clever-sounding mirror phrases that a million landing pages
   already used.
 - **The rule of three in lists everywhere.** When every sentence
-  enumerates exactly three items, a model wrote it.
+  enumerates exactly three items, the prose can feel formulaic. Flag the
+  pattern only when it changes how the piece reads.
 - **Rhetorical questions as transitions.** "So what does this mean for
   you?" / "The result?" / "The best part?"
 - **The hedge-flourish.** Winking qualifiers like "(yet)" or "at least
