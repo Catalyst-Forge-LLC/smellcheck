@@ -1,5 +1,5 @@
 ---
-title: Revised text back, not a report.
+title: Remove inflated language and vague claims from prose.
 description: An installable writing skill for AI agents. Smell Check edits the prose you give it to remove vague claims, inflated language, and wording that has not earned its place.
 order: 0
 ---
