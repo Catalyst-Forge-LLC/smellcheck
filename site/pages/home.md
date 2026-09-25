@@ -44,20 +44,11 @@ After installing the skill, save the facts and the draft as `deploy.md` and ask:
 
 Smell Check does not guess whether a human or a model wrote the sentences, and it does not try to fool detectors. Same standard either way. Fuller positioning: [About](/about).
 
-## The package
+## Which pass
 
-The skill reads shared law in `core.md`, then a genre file if the surface needs one, then your project overlay if you wrote one. The bundled defaults are enough for a first run. Do not fork `core.md`, and do not copy the bans into the overlay.
+Use the claims pass when the problem is truth or scope. Use the prose pass when the meaning is sound but the wording gets in the way. Add a house-style overlay when your publication has its own rules.
 
-| File | Use |
-| --- | --- |
-| `core.md` | Shared law. Always. |
-| `essays.md` / `landing.md` / `outreach.md` / `launch.md` / `civic.md` / `academic.md` | Surface extras only. Do not copy the bans. |
-| `audit.md` | Smell. |
-| `claims.md` | Substance first, then voice. |
-| `cursor.mdc` | Pocket card. Copy into `.cursor/rules/`. |
-| `agents.md` | Pointer. Paste into `AGENTS.md` or `CLAUDE.md`. |
-
-Maintained file map: [Files](/docs/files).
+The skill reads shared law, then a genre file if the surface needs one, then your project overlay if you wrote one. The bundled defaults are enough for a first run. The file map and load order live in [Files](/docs/files).
 
 The npm package also exports `readRule` so a script can load the same files. That helper does not score prose.
 

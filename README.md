@@ -39,6 +39,8 @@ It reruns the last failed job without opening a terminal.
 
 A strong word can stay when the sentence earns it: *The 2025 rewrite was transformative: checkout went from three forms to one.*
 
+Save the draft and the facts it must preserve in `deploy.md`. Then ask your agent to review that file with Smell Check. Check both the proposed wording and whether it still matches the supplied facts.
+
 Ask (after installing the skill):
 
 > Use Smell Check to revise `deploy.md` using only the supplied facts.
