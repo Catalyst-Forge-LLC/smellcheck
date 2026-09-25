@@ -8,6 +8,11 @@ An installable writing skill for AI agents. Smell Check edits the prose you give
 
 An agent reads the rules and edits. Nothing scans the tree. v1 has no CLI.
 
+<div class="cta-row">
+  <a class="cta cta-primary" href="/docs/install">Install in your agent</a>
+  <a class="cta cta-secondary" href="https://github.com/Catalyst-Forge-LLC/smellcheck">View on GitHub</a>
+</div>
+
 ## Before / after
 
 Labeled example. The retry button is a **supplied fact**, not something the vague sentence already contains.

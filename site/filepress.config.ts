@@ -8,6 +8,7 @@ export default defineFilepressConfig({
 	description:
 		'An installable writing skill for AI agents. Editorial rules for prose that says something instead of sounding like it.',
 	tagline: 'Have you smell-checked that?',
+	lede: 'Prose · claims · earned words',
 	url: 'https://smellcheck.dev',
 	author: 'Catalyst Forge LLC',
 	logo: '/logo.png',
