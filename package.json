@@ -1,6 +1,6 @@
 {
 	"name": "smellcheck",
-	"version": "0.3.15",
+	"version": "0.3.16",
 	"private": false,
 	"type": "module",
 	"description": "Smell-check your prose. Installable writing rule set for AI agents that sprays the performative, faux-profound register off prose. Core bans, smell audit, claims review, genre overlays. Prose, not code smells.",
