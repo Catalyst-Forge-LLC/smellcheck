@@ -5,8 +5,7 @@ alwaysApply: true
 
 # Git policy
 
-- After substantive work, commit with a good message
-  (Co-authored-by: Cursor <cursoragent@cursor.com>).
+- After substantive work, commit with a good message.
 - **Push after committing.** `backup` is the local mirror on an attached
   drive (`D:/git-mirrors/smellcheck.git`). `origin` is GitHub
   (`https://github.com/Catalyst-Forge-LLC/smellcheck.git`).
