@@ -223,8 +223,10 @@ not single instances.
 
 Hidden verb and unparseable (including an orphaned referent, or
 insider code only the map-holder would get) fail in a single sentence.
-Flattened visual does too. A permission-slip closer on a public post or
-page does too. One is a finding. The rest are density.
+Flattened visual does too. So do a distant pointer and a phantom
+definite. A mismatched list stem fails once per list. A
+permission-slip closer on a public post or page does too. One is a
+finding. The rest are density.
 
 - **Signpost openers.** "Here's…", "Let me…", "So…" starting section
   after section. A talk earns more than a blog post; when every section
@@ -297,6 +299,27 @@ page does too. One is a finding. The rest are density.
   in the room, say it again. Same for a heading that owns nothing:
   "What this covers" needs a named owner. One orphaned referent is a
   finding.
+- **Distant pointer.** *This*, *that*, *those moves*, *it*, *they*,
+  *one* pointing back past nearer nouns or across a paragraph. The
+  reader has to hunt. Two cousins: a pronoun that already has a
+  standing owner in the piece (*they* is the other person all essay,
+  then *they* are the steps), and a count with nothing to count ("works
+  better with two," "we reach for one"). Test: cover the sentence
+  before. If the reader can't say what the word points at, say the noun
+  again. Unparseable already catches the pointer a heading orphans;
+  this is the one that is only far away. One is a finding.
+- **Phantom definite.** *The* in front of something the piece never
+  introduced: "the original disagreement," "the decision," "the
+  practice." The article tells the reader they should already know
+  which one. Same tell for a coined term used before its definition:
+  the reader meets "fills" three paragraphs before the page says what a
+  fill is. Introduce it, name it, or drop the article. Terms the
+  overlay lists pass. One is a finding.
+- **List stem mismatch.** The line above a list promises one kind of
+  item and the list delivers another: "Check for these:" over general
+  statements, "Steps:" over nouns. Test: read the stem aloud with each
+  item. If an item doesn't answer the stem, change the stem or rewrite
+  the items. One list is a finding.
 - **Participial afterthoughts.** A present participle bolted on after
   a comma for atmosphere: "…, looking out the window", "…, underscoring
   the need." One earned modifier is fine. A piece that keeps attaching
@@ -326,6 +349,9 @@ page does too. One is a finding. The rest are density.
   the reading. Write that test. Do not write "this preposition is
   wrong." A count the neighbor can steal (`with` / `from`) is the easy
   over-apply. Use it only when the neighbor stole the count.
+  Attachment is the same collision a level up: a phrase that can hang
+  on two parts of the sentence ("what we concluded before choosing our
+  response"). Move the phrase next to the thing it modifies.
 
 ---
 
@@ -334,7 +360,7 @@ page does too. One is a finding. The rest are density.
 | Mode | Extra watch |
 | --- | --- |
 | **Agent chat** | Honest framing, validation theater, suspense, dramatic apology, genuinely-stack, helper theater |
-| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, cataphoric teasers, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, hidden verb, sense collision, haughty hero-noun, em-dash furniture, triad packing, participial afterthoughts, permission-slip offer |
+| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, cataphoric teasers, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, distant pointer, phantom definite, list stem mismatch, hidden verb, sense collision, haughty hero-noun, em-dash furniture, triad packing, participial afterthoughts, permission-slip offer |
 
 The table is extra watch, not a partition. Chat theater infects drafts.
 Publish tells show up in chat.
@@ -423,6 +449,26 @@ Good: "I teach this in a deliberate order."
 Bad: "What this covers"  
 Good: "What this guide covers"
 
+**Distant pointer**  
+Bad: "If the actual issue was timing, overload, or a misunderstanding,
+those moves can create a second hurt."  
+Good: "If the actual issue was timing, overload, or a misunderstanding,
+a response aimed at contempt that was never there can create a second
+hurt."  
+Bad: "A thin reason is an explanation built on evidence that can't yet
+support it. We reach for one because not knowing hurts."  
+Good: "We reach for thin reasons because not knowing hurts."
+
+**Phantom definite**  
+Bad: "The original disagreement may still be there." (No disagreement
+has come up.)  
+Good: "There may be a real disagreement underneath."
+
+**List stem mismatch**  
+Bad: "Check for these:" over "Later events get recruited as
+confirmation."  
+Good: "Ask:" over "Am I counting later events as confirmation?"
+
 **Hidden verb**  
 Bad: "Once that understanding is in a person, the rest is easy."  
 Good: "Once a person can see it, the rest is easy."  
@@ -433,7 +479,11 @@ Good: "It reports the readings a silent reader can already take."
 
 **Sense collision**  
 Bad: "Competence aimed at the wrong peak scales it."  
-Good: "Competence aimed at the wrong peak amplifies it."
+Good: "Competence aimed at the wrong peak amplifies it."  
+Bad: "Separate what happened from what we concluded before choosing our
+response."  
+Good: "Pause before responding, and separate what happened from what we
+concluded."
 
 **Haughty hero-noun**  
 Bad: "The work is getting to higher resolution."  

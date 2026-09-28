@@ -63,12 +63,17 @@ offer, intensifier
 filler, parallel-zinger density, flattened visual, bold-lead lists,
 riddle labels, cozy
 machinery, operator notes in the brochure, hand-holding the obvious,
-unparseable sentences (including orphaned referent), hidden verb
+unparseable sentences (including orphaned referent), distant pointer
+(including a reused pronoun and a count with nothing to count),
+phantom definite (including a term used before its definition), list
+stem mismatch, hidden verb
 (including *in*/*out* as the action: "Markdown in, site out", and
 dummy maxim: "This one is for the reading," "Four is the whole set"),
-sense collision, haughty hero-noun, participial afterthoughts,
-topic-sentence pinning. Hidden verb, unparseable (orphaned
-referent, insider code), and flattened visual fail in one sentence.
+sense collision (including attachment), haughty hero-noun, participial
+afterthoughts, topic-sentence pinning. Hidden verb, unparseable
+(orphaned referent, insider code), distant pointer, phantom definite,
+and flattened visual fail in one sentence. A list stem mismatch fails
+once per list.
 The other cadence tells are density. Hero-noun is a register tell: flag the mission
 sentence, not the word. Apply the
 corpus-applicability heuristic before rewriting overlay terms. Teaching

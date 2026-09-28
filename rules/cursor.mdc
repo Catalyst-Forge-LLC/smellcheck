@@ -85,6 +85,15 @@ smell-checked that? Filings:
 - Unparseable sentence: a finished-sounding line the reader cannot
   repeat ("a desktop you already leave on"). A heading resets *this* /
   *that* / *it*. Name the noun again.
+- Distant pointer: *those moves*, *it*, *they*, *one* reaching back past
+  nearer nouns or across a paragraph; a pronoun reused for a new owner;
+  a count with nothing to count ("works better with two"). Cover the
+  sentence before; if they can't say what it points at, say the noun.
+- Phantom definite: *the* in front of something never introduced ("the
+  decision"), or a coined term used before its definition. Introduce
+  it or drop the article.
+- List stem mismatch: the line above a list promises one kind of item
+  and the list delivers another. Read the stem with each item.
 - Hidden verb: dummy frame. Location and possession are not verbs
   ("the understanding is in a person"). *In*/*out* as the action
   ("Markdown in, site out") is the same tell. Dummy maxim is the
@@ -92,7 +101,8 @@ smell-checked that? Filings:
   Delete it; if nothing is lost, it was cologne. A real maxim stays.
   A real stranded preposition stays. Say the verb. One frame is a fail.
 - Sense collision: the nearest noun stole the reading. Pick one
-  sense, or change the neighbor.
+  sense, or change the neighbor. A phrase that can attach to two parts
+  of the sentence is the same tell; move it next to what it modifies.
 - Participial afterthoughts: "…, looking out the window" bolted on for
   atmosphere. Density, not one modifier.
 - Topic-sentence pinning: every paragraph labels itself, then says it.

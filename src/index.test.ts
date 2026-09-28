@@ -117,6 +117,34 @@ test("core names hidden verb, sense collision, and haughty hero-noun", () => {
 	assert.doesNotMatch(card, /Haughty hero-noun/);
 });
 
+test("core and card name distant pointer, phantom definite, and list stem mismatch", () => {
+	const core = readRule("core");
+	assert.match(core, /Distant pointer/);
+	assert.match(core, /those moves can create a second hurt/);
+	assert.match(core, /count with nothing to count/);
+	assert.match(core, /Phantom definite/);
+	assert.match(core, /used before its definition/);
+	assert.match(core, /List stem mismatch/);
+	assert.match(core, /read the stem aloud with each\s+item/i);
+	assert.match(core, /Attachment is the same collision/);
+	const card = readRule("cursor");
+	assert.match(card, /Distant pointer/);
+	assert.match(card, /Phantom definite/);
+	assert.match(card, /List stem mismatch/);
+	const audit = readRule("audit");
+	assert.match(audit, /distant pointer/);
+	assert.match(audit, /phantom definite/);
+	assert.match(audit, /list\s+stem mismatch/);
+});
+
+test("essays names subject first and hedge budget", () => {
+	const essays = readRule("essays");
+	assert.match(essays, /Subject first/);
+	assert.match(essays, /withholds the subject/);
+	assert.match(essays, /Hedge where the doubt is real/);
+	assert.match(essays, /a hedge where plain is earned/);
+});
+
 test("essays names picture-before-theory and obligation as object", () => {
 	const essays = readRule("essays");
 	assert.match(essays, /Picture before theory/);

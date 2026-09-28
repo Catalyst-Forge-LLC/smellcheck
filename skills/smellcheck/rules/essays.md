@@ -96,6 +96,24 @@ Socratic question starts with something ordinary. A midterm question
 starts with the doctrine. Core already protects the first. This rule
 names the second.
 
+**Subject first.** The same rule for definitions and section openers.
+Show the case, then name it: two sentences about one silence, then
+"call that limit the bound." An opener like "The limits of your
+responsibility matter most when…" makes the reader wait a paragraph to
+learn the section is about a harmful pattern. Test: after the first
+sentence, can they say which situation this is? Core's topic-sentence
+pinning is the opposite failure. Pinning announces the point; this
+withholds the subject.
+
+**Hedge where the doubt is real.** A budget, not a ban. Careful prose
+earns hedges where the uncertainty is real: what another person meant,
+what the evidence can't show yet. Stack *can*, *may*, and *might*
+across every line and the lines meant to land go soft. Keep the hedge
+where it describes the world. Cut it where the reader already accepts
+the uncertainty. [`claims.md`](./claims.md) flags an absolute where a
+hedge is earned. This is the reverse: a hedge where plain is earned. Do
+not trade a hedge for an absolute the evidence won't carry.
+
 **Take a breath.** A new paragraph is a pause. If you would stop and
 look at them before the next beat, break. Do not chop every sentence.
 
@@ -131,7 +149,8 @@ On top of `core.md` and `audit.md`:
 - Title or lede that claims more than the body proves (run `claims.md`
   when this is in doubt)
 - Walk-vs-stage (lectern, impersonal dummy, specialist verbs)
-- Midterm question before the picture, live definition closed too
-  early, later name retrofitted, three claims in one breath,
+- Midterm question before the picture, subject withheld behind an
+  abstract opener, hedges stacked on the lines meant to land, live
+  definition closed too early, later name retrofitted, three claims in one breath,
   restating without a beat, obligation as object (ceremony, not the
   noun)
