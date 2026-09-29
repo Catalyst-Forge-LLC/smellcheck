@@ -124,7 +124,7 @@ Only after Passes A-D:
 3. Flag cadence budgets: signpost openers, mic-drop closers,
    permission-slip offer, intensifier
    filler, em-dash furniture, parallel-zinger density, flattened visual,
-   translation sentence,
+   translation sentence, register seam,
    bold-lead lists,
    riddle labels, cozy machinery, operator notes in the brochure,
    hand-holding the obvious, unparseable sentences.

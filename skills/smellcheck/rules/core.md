@@ -225,7 +225,8 @@ Hidden verb and unparseable (including an orphaned referent, or
 insider code only the map-holder would get) fail in a single sentence.
 Flattened visual does too. A translation sentence does too. So do a
 distant pointer and a phantom
-definite. A mismatched list stem fails once per list. A
+definite. A register seam fails once per passage. A mismatched list
+stem fails once per list. A
 permission-slip closer on a public post or page does too. One is a
 finding. The rest are density.
 
@@ -265,6 +266,17 @@ finding. The rest are density.
   not tell you how they feel." A picture the reader can see is not
   this tell. "A small silence becomes a climate" stays. So does a
   pair they can see: "a target, not a warrant."
+- **Register seam.** One passage speaks in a different voice from
+  the ones around it. A warm essay drops into spec voice for its
+  steps ("run," "within scope," "remain open to revision"), or a
+  spec turns chatty for one section. It is often the leftover of an
+  earlier draft that later edits warmed, or cooled, around. Test:
+  read it straight after the paragraph before. Would the same person
+  say both to the same reader? One seam is a finding. Rewrite the
+  stale passage in the piece's voice and keep its content. If the
+  passage is echoed later (steps an example walks through), change
+  both so they still match. A marked shift stays: a quoted message,
+  a code block, a definition set off as one.
 - **Bold-lead lists.** Every bullet "**Label.** Explanation" is a
   template when the whole piece does it.
 - **Riddle labels.** A bold lead-in or heading that is an aphorism the
@@ -368,7 +380,7 @@ finding. The rest are density.
 | Mode | Extra watch |
 | --- | --- |
 | **Agent chat** | Honest framing, validation theater, suspense, dramatic apology, genuinely-stack, helper theater |
-| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, cataphoric teasers, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, translation sentence, distant pointer, phantom definite, list stem mismatch, hidden verb, sense collision, haughty hero-noun, em-dash furniture, triad packing, participial afterthoughts, permission-slip offer |
+| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, cataphoric teasers, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, translation sentence, register seam, distant pointer, phantom definite, list stem mismatch, hidden verb, sense collision, haughty hero-noun, em-dash furniture, triad packing, participial afterthoughts, permission-slip offer |
 
 The table is extra watch, not a partition. Chat theater infects drafts.
 Publish tells show up in chat.
@@ -512,6 +524,15 @@ Bad: "It can also make us more certain than the moment warrants."
 Good: "It can also make us more sure than this one moment supports."  
 (Still fine: "A small silence becomes a climate." "A named question
 gives an explanation a target, not a warrant.")
+
+**Register seam**  
+Bad (in a warm post): "These are four steps to run before you
+answer. … 4. Keep any explanation provisional and within scope. It
+should answer the question you named, fit the evidence, and remain
+open to revision."  
+Good: "Before you reply, ask yourself four questions. … 4. What
+explanation, if any, can I hold for now? Only one that answers your
+question and fits what you know. Hold it loosely, so it can change."
 
 ---
 

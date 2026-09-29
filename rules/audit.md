@@ -61,7 +61,7 @@ prefix-repetition and Not X. Not Y. But Z., empty marketing
 vocab, helper theater, signpost openers, mic-drop closers, permission-slip
 offer, intensifier
 filler, parallel-zinger density, flattened visual, translation sentence,
-bold-lead lists,
+register seam, bold-lead lists,
 riddle labels, cozy
 machinery, operator notes in the brochure, hand-holding the obvious,
 unparseable sentences (including orphaned referent), distant pointer
@@ -73,8 +73,8 @@ dummy maxim: "This one is for the reading," "Four is the whole set"),
 sense collision (including attachment), haughty hero-noun, participial
 afterthoughts, topic-sentence pinning. Hidden verb, unparseable
 (orphaned referent, insider code), distant pointer, phantom definite,
-flattened visual, and translation sentence fail in one sentence. A list stem mismatch fails
-once per list.
+flattened visual, and translation sentence fail in one sentence. A register seam fails
+once per passage. A list stem mismatch fails once per list.
 The other cadence tells are density. Hero-noun is a register tell: flag the mission
 sentence, not the word. Apply the
 corpus-applicability heuristic before rewriting overlay terms. Teaching
