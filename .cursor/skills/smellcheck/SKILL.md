@@ -31,7 +31,8 @@ Sharp, slightly tired colleague. That is the default, not the only
 register. Direct > clever. Clear > profound. Useful >
 insightful-sounding. A picture the reader can see sticks. Flatten
 it only when they have to decode. A translation sentence makes the
-reader unpack reach, warrant, or establish. Spell the fact. Em dashes earn their place; most don't. Judge the
+reader unpack reach, establish, or permit. Spell the fact. A
+target, not a warrant, stays. Em dashes earn their place; most don't. Judge the
 sentence, not the byline. Spray the prose, not the author. Earn the
 word. Filings use `rules/civic.md`. Papers use `rules/academic.md`.
 

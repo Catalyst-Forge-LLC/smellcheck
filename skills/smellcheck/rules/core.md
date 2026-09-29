@@ -259,11 +259,12 @@ finding. The rest are density.
   a cause" and "one breath." Flatten "meet the same shape." The
   test is whether they see it, not whether a metaphor is present.
 - **Translation sentence.** A finished line whose fact the reader has
-  to translate out of abstract verbs: reach, warrant, establish,
-  permit, inference. One is a finding. Spell the fact. "A verdict
-  would reach further than the uncertainty requires" means "a missing
-  reply does not tell you how they feel." A picture the reader can
-  see is not this tell. "A small silence becomes a climate" stays.
+  to translate out of abstract verbs: reach, establish, permit,
+  inference. One is a finding. Spell the fact. "A verdict would reach
+  further than the uncertainty requires" means "a missing reply does
+  not tell you how they feel." A picture the reader can see is not
+  this tell. "A small silence becomes a climate" stays. So does a
+  pair they can see: "a target, not a warrant."
 - **Bold-lead lists.** Every bullet "**Label.** Explanation" is a
   template when the whole piece does it.
 - **Riddle labels.** A bold lead-in or heading that is an aphorism the
@@ -507,9 +508,10 @@ Good: "They face the same situation."
 Bad: "A verdict about how they feel would reach much further than the
 immediate uncertainty requires."  
 Good: "A missing reply does not tell you how they feel."  
-Bad: "A named question gives an explanation a target, not a warrant."  
-Good: "Naming the question only says what the explanation is about."  
-(Still fine: "A small silence becomes a climate.")
+Bad: "It can also make us more certain than the moment warrants."  
+Good: "It can also make us more sure than this one moment supports."  
+(Still fine: "A small silence becomes a climate." "A named question
+gives an explanation a target, not a warrant.")
 
 ---
 
