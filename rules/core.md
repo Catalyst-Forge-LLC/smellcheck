@@ -223,7 +223,8 @@ not single instances.
 
 Hidden verb and unparseable (including an orphaned referent, or
 insider code only the map-holder would get) fail in a single sentence.
-Flattened visual does too. So do a distant pointer and a phantom
+Flattened visual does too. A translation sentence does too. So do a
+distant pointer and a phantom
 definite. A mismatched list stem fails once per list. A
 permission-slip closer on a public post or page does too. One is a
 finding. The rest are density.
@@ -257,6 +258,12 @@ finding. The rest are density.
   could see with a bland synonym. One is a finding. Keep "smuggle
   a cause" and "one breath." Flatten "meet the same shape." The
   test is whether they see it, not whether a metaphor is present.
+- **Translation sentence.** A finished line whose fact the reader has
+  to translate out of abstract verbs: reach, warrant, establish,
+  permit, inference. One is a finding. Spell the fact. "A verdict
+  would reach further than the uncertainty requires" means "a missing
+  reply does not tell you how they feel." A picture the reader can
+  see is not this tell. "A small silence becomes a climate" stays.
 - **Bold-lead lists.** Every bullet "**Label.** Explanation" is a
   template when the whole piece does it.
 - **Riddle labels.** A bold lead-in or heading that is an aphorism the
@@ -360,7 +367,7 @@ finding. The rest are density.
 | Mode | Extra watch |
 | --- | --- |
 | **Agent chat** | Honest framing, validation theater, suspense, dramatic apology, genuinely-stack, helper theater |
-| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, cataphoric teasers, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, distant pointer, phantom definite, list stem mismatch, hidden verb, sense collision, haughty hero-noun, em-dash furniture, triad packing, participial afterthoughts, permission-slip offer |
+| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, cataphoric teasers, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, translation sentence, distant pointer, phantom definite, list stem mismatch, hidden verb, sense collision, haughty hero-noun, em-dash furniture, triad packing, participial afterthoughts, permission-slip offer |
 
 The table is extra watch, not a partition. Chat theater infects drafts.
 Publish tells show up in chat.
@@ -495,6 +502,14 @@ Bad: "Do not add a cause you have not yet allowed yourself."
 Good: "Do not smuggle a cause you have not yet allowed yourself."  
 Bad: "They meet the same shape."  
 Good: "They face the same situation."
+
+**Translation sentence**  
+Bad: "A verdict about how they feel would reach much further than the
+immediate uncertainty requires."  
+Good: "A missing reply does not tell you how they feel."  
+Bad: "A named question gives an explanation a target, not a warrant."  
+Good: "Naming the question only says what the explanation is about."  
+(Still fine: "A small silence becomes a climate.")
 
 ---
 
