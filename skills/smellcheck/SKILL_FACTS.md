@@ -1,6 +1,6 @@
 ---
 skill_facts_version: "0.1.0"
-name: smellcheck
+name: Smell Check
 developer: Catalyst Forge
 version: "0.3.18"
 status: active
@@ -52,7 +52,7 @@ credits:
   built_by: "Catalyst Forge - https://www.catalystforge.com/"
 ---
 
-# Skill Facts - smellcheck
+# Skill Facts - Smell Check
 
 | | |
 |---|---|
@@ -113,4 +113,4 @@ Editorial rules for publishable prose; spray, audit, and publish-pass workflows 
 ---
 *Generated with [SkillFacts](https://skillfacts.dev) · Built by [Catalyst Forge](https://www.catalystforge.com/)*
 
-[skillfacts-label]: https://skillfacts.dev/v#sf1.eNqdU8uKGzEQ_JVB53lk2ZtzCksCJs5pc1vCIks9HmG96G6NGYz_Pa1JNk5gD0NOkkqlaqm6dFWz2j20KuoAaqcogPdmAnNWrbIwg08ZUDaeNGu_EDdfEp5ANmdAcinK1of-sX8QhFhzIQG0YTdXjncGIlXdb_vvsj67aGVhClLCjs7Oe0FzwZxW1mfrOKHTvsHigZoxYZPL0Tua9NFDk1F4HxvKqJe20UXoMkT7RuqyJmouCc-jT5df5z_tOwEdMdjmgo5dPNWamGaIOhope1WUCtaZmpgz7Ybh5Hgqx96kMLw9vFsf3h0OT8M_Jv0u_Z5Jt1a5SIxF_EiRXhG0mdZ6kwgIP6ZYbYrA9c4CuJC9AyvY6MQAkYIgsBy0VY1T8lVmBAS5unj58qNVxxKtB_uqkd0o3ksLXq4qa5Za6vnr_nDog727n7he9tb-oaxeDyYhbOGtrm8S9NoF2sIEIr1sYnpptjRwCzUVXv3eJlviNqZxszObbDLaQtjIPUHkd98v3YUTij81NQweAjAu9-RYIAm0XuNVwyAZmVKALIp_pfme116-tBxDkA9Xv9ryf5mXSEejuQZQpnD7CS36d_U
+[skillfacts-label]: https://skillfacts.dev/v#sf1.eNqdk7Fu2zAQhl9FuJm2G3Rjp8JoASPu1G5BEJzJs0SYIom7owzB8LsXVJOmQwahG4eP__E-_brBBPbBQMKRwMLPkWLs9gO5CxjwNFHMhRgs7FExzqLd98w9gYGJWEJOYOHT9vP2AQyIolYBC-g0TI2JwVGSFvzj8AsMXELyYMFVlswbuYQYwUCpXPJCffNBMweMHddI0p0zd6WeYpABT5G6wlnoSyeFcTYdVh_UdJj8G7QpKNJdM1_OMV__3P962KBIECXfXTloSH2byXmihMkR2BtIrtxOMKgWsbtdH3Sop63L4-5t8c2y-OZ43O-kWXKvkl5HfyTpbiAkUa5OQ07ywoRuWOYNFCNYSDk1TYm0vRkshLHEQB4MnEMkmUVpBAtM6Fua5hxbzJmYkiMP9unZwKkmH8m_IGs4o1MB-3SDgjq0L_p4OB63o3-3n7U99m7-IovrnctMa7jF-qrAiGGUNSSJ4LyKjJh8SP0aNFddfK-LrWkd6cIU3CpNDj2NK9mekn64_7MB6plEWmuUIo2kPL83x5NoSLjUq5XhbmDIIxXs_23ze1-3niYwwFSytF9t_r_OK9fkUFsBlSvdfwOtVnfV
