@@ -49,6 +49,7 @@ function copySkillTree(destDir) {
 	rmSync(destDir, { recursive: true, force: true });
 	mkdirSync(join(destDir, "rules"), { recursive: true });
 	copyFileSync(join(skillSrcDir, "SKILL.md"), join(destDir, "SKILL.md"));
+	copyFileSync(join(skillSrcDir, "SKILL_FACTS.md"), join(destDir, "SKILL_FACTS.md"));
 	for (const name of ruleMarkdownNames()) {
 		copyFileSync(join(skillRulesDir, name), join(destDir, "rules", name));
 	}
@@ -140,6 +141,10 @@ const zipEntries = [
 	{
 		name: `${skillName}/SKILL.md`,
 		data: readFileSync(join(skillSrcDir, "SKILL.md")),
+	},
+	{
+		name: `${skillName}/SKILL_FACTS.md`,
+		data: readFileSync(join(skillSrcDir, "SKILL_FACTS.md")),
 	},
 	...ruleNames.map((name) => ({
 		name: `${skillName}/rules/${name}`,

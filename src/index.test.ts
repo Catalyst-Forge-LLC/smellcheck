@@ -389,6 +389,10 @@ test("static sync copies skill and core onto the site", () => {
 	assert.equal(zip.readUInt32LE(0), 0x04034b50);
 	const zipNames = storeZipNames(zip);
 	assert.ok(zipNames.includes("smellcheck/SKILL.md"));
+	assert.ok(zipNames.includes("smellcheck/SKILL_FACTS.md"));
+	const factsSource = readFileSync(join(packageRoot, "skills", "smellcheck", "SKILL_FACTS.md"), "utf8");
+	assert.equal(readFileSync(join(packageRoot, "site", "static", "skills", "smellcheck", "SKILL_FACTS.md"), "utf8"), factsSource);
+	assert.equal(readFileSync(join(packageRoot, ".cursor", "skills", "smellcheck", "SKILL_FACTS.md"), "utf8"), factsSource);
 	assert.ok(zipNames.includes("smellcheck/rules/core.md"));
 	assert.ok(!zipNames.some((name) => name.includes("cursor.mdc")));
 });
