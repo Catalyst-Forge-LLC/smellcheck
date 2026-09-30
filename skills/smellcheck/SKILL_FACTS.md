@@ -2,7 +2,7 @@
 skill_facts_version: "0.1.0"
 name: Smell Check
 developer: Catalyst Forge
-version: "0.3.20"
+version: "0.3.21"
 status: active
 license: MIT
 kind: cursor-skill
@@ -57,7 +57,7 @@ credits:
 | | |
 |---|---|
 | **Developer** | Catalyst Forge |
-| **Version** | 0.3.20 |
+| **Version** | 0.3.21 |
 | **Status** | active |
 | **License** | MIT |
 | **Kind** | cursor-skill |
@@ -113,4 +113,4 @@ Editorial rules for publishable prose; spray, audit, and publish-pass workflows 
 ---
 *Generated with [SkillFacts](https://skillfacts.dev) · Built by [Catalyst Forge](https://www.catalystforge.com/)*
 
-[skillfacts-label]: https://skillfacts.dev/v#sf1.eJydkzFvGzEMhf_KgbPObtBNnQqjBYy4U7sFQUBL9J1gnSSQ1BmG4f9e6Jo0HTIcumn49Eg-Pt5gBvtgIOFEYOHnRDF2u5HcGQx4minmQgwWdqgYr6Ld98wDgYGZWEJOYOHT5vPmAQyIolYBC-g0zI2JwVGSJvxj_wsMnEPyYMFVlsy9nEOMYKBULnmhvvmgmQPGjmsk6U6Zu1KPMciIx0hd4Sz0pZPCeDUdVh_UdJj8G9QXFOkumc-nmC9__n_d9ygSRMl3Fw4a0tBqcp4pYXIE9gaSK7cXjKpF7HY7BB3rcePytH0bvF8G7w-H3VaaS-7VpNfSH5l0NxCSKFenISd5YUI3LvVGihEspJyaTYm09QwWwlRiIA8GTiGSXEVpAgtM6PvW_KKpOccmdiKm5MiDfXo2cKzJR_IvyBpO6FTAPt2goI5tr4_7w2Ez-fcdZG0t381fZHF86zLTGm7xfpVgxDDJGpJE8LqKjJh8SMMaNFddXF8nW9M60oU5uFU2OfQ0rWQHSvrh_M8GaGASadlRijSR8vU9P55EQ8IlZC0MdwNjnqjg8G-m31O78TSDAaaSpR3c9f-Sr1yTQ20BVK50_w1ISXot
+[skillfacts-label]: https://skillfacts.dev/v#sf1.eJydlEFrGzEQhf-KmLN27bhQyvZUQguh7qm9hWDG0nhXWCstmpEXY_zfixQnDTSHJWd9epp580YX4KPzfndAI7w7UWIXA3Swbu_aNWgIOBJ08Hsk79X9QOYIGiydyMeJEnRwj4L-zKJ-xNQTaHir8and3IEGFpTM0AEacacCeWcocFH-9fAHNBxdsNCByYljampJoGHKaYqV-m6dxOTQq5Q9sTrEpKa8944H3HtSU4pMXxVPCc9aYbZOtMJgX6BmQmY1x3Q8-Dg_3__20CCzYyGr5uTEhR40DHGkCfvy6CAycbdacWnelN5bSyfQkGiKXAo6v6F6J0PetyaOqxdPmupJs93ev9EofaV4ooDBEHQX4JiToQ8qPbf33iSuGlxgSdmIi4F3idAM9b2BvIcOQgxlFIGk-AIduHHyjixoODhPfGahETpIhLYpBlVNidEXsQMlCoYsdI9PGvY5WE92h0lcjRJ0jxeYUIYSnp8P22072n9zjlJKvupXpE51ZWKiJVyd7yJBj27kJSQx43kR6TFYF_olaMxSXV8mm8My0riTM4tsMmhpXMj2FOTd_p80UJ-IuWRHyNNIUoN_y48lFhewhqyE4aqhp0AJpYTjAhalhHuz3nxu1l-aTflVbkAssR0w2AazDDGRLQkziayT-tyr0G52tdjXlSw_RA3abSX32XnZ7c__7YFq1MuleZ5bczs8lLO6YnC9_gWKW7kk
