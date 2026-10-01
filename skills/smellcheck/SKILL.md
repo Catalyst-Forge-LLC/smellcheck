@@ -8,8 +8,8 @@ description: >-
 
 # Smell Check
 
-Editorial rules for prose that actually says something instead of just
-sounding like it. AI-assisted or not.
+Editorial rules for prose that says something, rather than prose that
+sounds finished. AI-assisted or not.
 
 This file is a digest. It is not a second source of truth. If it
 conflicts with `core.md`, `core.md` wins.
@@ -44,6 +44,9 @@ word. Filings use `rules/civic.md`. Papers use `rules/academic.md`.
 - **Pasted publication prose.** Return the revised prose in chat unless
   the user names an output file. Do not invent a filename such as
   `deploy.md` from surrounding website copy.
+- A spray is a rewrite, not a trim. Keep what each sentence was doing
+  for the reader (a fact, a feeling, a courtesy, an ask) and rewrite
+  the words that smell.
 - Use only facts the user supplied. If the draft is vague and no facts
   are supplied, ask what concrete change landed rather than inventing
   features.

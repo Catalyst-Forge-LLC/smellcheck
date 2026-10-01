@@ -1,7 +1,8 @@
 # Smell Check: core
 
-Installable writing rules for agents. Sprays the performative,
-faux-profound register off prose so what remains is direct and useful.
+Installable writing rules for agents. Rewrites the performative,
+faux-profound register so the prose reads direct and useful, and still
+sounds like the person who wrote it.
 
 Written **Smell Check**. npm **`smellcheck`**. Prose, not code smells.
 
@@ -38,7 +39,8 @@ household version in *The Power of Habit* (2012): an odor-eliminating
 spray that did not sell until the company realized habituation was the
 real problem, then repositioned the bottle as the reward at the end of a
 cleaning habit. This package is that move for writing. Make the smell
-visible, then take it off. The original tale is Duhigg's. Read him.
+visible, then rewrite the sentence that carried it. The original tale
+is Duhigg's. Read him.
 
 ---
 
@@ -79,6 +81,24 @@ work is getting to higher resolution"), not the word. "The work is
 done," "body of work," and "the work of the committee" still pass.
 [`academic.md`](./academic.md) may keep "the work" when it means this
 study. Do not hunt the noun.
+
+---
+
+## Rewrite, don't amputate
+
+A spray is a rewrite. The goal is prose without the smell, not fewer
+words. Deleting is one tool. It is right when the words carried
+nothing: an honesty announcement, a teaser, a setup sentence.
+
+Before you cut a sentence, ask what it was doing for the reader: a
+fact, a feeling, a courtesy, a transition, an ask. If it was doing
+any of those, keep the job and rewrite the words. A revision can come
+out the same length, or longer when a vague line needed the noun
+spelled out.
+
+Over-spray is a smell too. Telegraphic prose, a thank-you stripped to
+a receipt, a note with the warmth taken out. The reader still hears a
+template, just a terser one.
 
 ---
 
@@ -127,7 +147,7 @@ theater; keep dialect.
 
 ---
 
-## Hard bans (Claude / performative insight)
+## Hard bans (performative insight)
 
 ### 1. Escalation formula
 
@@ -232,8 +252,8 @@ finding. The rest are density.
 
 - **Signpost openers.** "Here's…", "Let me…", "So…" starting section
   after section. A talk earns more than a blog post; when every section
-  of prose opens with the same move, it is a template. Vary or cut the
-  weakest.
+  of prose opens with the same move, it is a template. Vary the
+  weakest, or cut the ones that only announce.
 - **Mic-drop closers.** Short zinger fragments ending a section ("That
   was the job."). Effective in small doses; not every section may end
   on one.
@@ -247,7 +267,7 @@ finding. The rest are density.
   start with Wielding").
 - **Intensifier repetition.** "actually," "whole," "real," "very,"
   "really," "truly" recurring as filler. Keep only where the word marks
-  a true contrast; cut the padding uses.
+  a true contrast. Rewrite or cut the padding uses.
 - **Em-dash furniture.** Clause-then-punchline, a dash in every heading,
   or stacks. One earned dash is not a finding. Density plus other tells
   is. Do not treat the mark as an AI tell to erase.
@@ -290,7 +310,7 @@ finding. The rest are density.
   already in the room ("On a single life,"), and a compression label you
   would not say standing up ("The through-line, compressed, is five
   moves"). If the shift is real, do it with *so* or a verb. If you would
-  not say the label, cut the label.
+  not say the label, rewrite it as something you would say, or cut it.
 - **Cozy machinery.** Infrastructure written the way a fond craftsman
   would talk: the model is "asleep," a worker stays "warm," heavy jobs go
   to a "quieter" box, "the mesh is the door." Terms of art pass the
@@ -380,14 +400,17 @@ finding. The rest are density.
 | Mode | Extra watch |
 | --- | --- |
 | **Agent chat** | Honest framing, validation theater, suspense, dramatic apology, genuinely-stack, helper theater |
-| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, cataphoric teasers, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, translation sentence, register seam, distant pointer, phantom definite, list stem mismatch, hidden verb, sense collision, haughty hero-noun, em-dash furniture, triad packing, participial afterthoughts, permission-slip offer |
+| **Drafts / posts / pages** | Escalation formula, insight-labeling without evidence, setup sentences, cataphoric teasers, riddle labels, cozy machinery, operator notes in the brochure, hand-holding, unparseable sentences, translation sentence, register seam, distant pointer, phantom definite, list stem mismatch, hidden verb, sense collision, haughty hero-noun, em-dash furniture, triad packing, participial afterthoughts, permission-slip offer, over-spray in your own rewrite |
 
 The table is extra watch, not a partition. Chat theater infects drafts.
 Publish tells show up in chat.
 
 Helper theater (any model): "Great question!", "I'd be happy to", empty
 "Absolutely!", "It's important to note." Performed enthusiasm
-("This is huge!", "Love this.") is the same family. Just do the work.
+("This is huge!", "Love this.") is the same family, and so is the
+reflex closer ("I hope this helps!", "Let me know if you'd like me to
+expand on any of these points."). Just do the work. A real offer with
+a real next step stays.
 
 Socratic beats and real questions aimed at a reader are method, not
 "transition question" smell. "So what does this mean for you?" as a
@@ -505,6 +528,15 @@ response."
 Good: "Pause before responding, and separate what happened from what we
 concluded."
 
+**Over-spray**  
+Before: "I'm thrilled to share that after an incredible journey, I've
+officially taken the next step in my career and joined Acme as Head of
+Partnerships."  
+Bad: "I joined Acme as Head of Partnerships."  
+Good: "Some news: I started at Acme this week as Head of Partnerships,
+and I'm thrilled about it."  
+(The feeling was real. The journey and the next step were the smell.)
+
 **Haughty hero-noun**  
 Bad: "The work is getting to higher resolution."  
 Good: "What I've been trying to do is get to higher resolution."  
@@ -545,6 +577,8 @@ question and fits what you know. Hold it loosely, so it can change."
 3. Protect distinctive human lines and verbatim testimony.
 4. Prioritize the five highest-impact fixes; do not flatten dialect
    or a picture that lands.
+5. Read the rewrite against the original. Every real fact, feeling,
+   courtesy, and ask should still be there.
 
 ---
 

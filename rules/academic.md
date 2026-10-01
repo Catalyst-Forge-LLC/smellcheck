@@ -109,7 +109,7 @@ On top of `core.md` and `audit.md`:
 
 1. Overlay or venue named the speaker (we, I, or the paper's convention).
 2. Abstract states the finding.
-3. Hedging names a limit or is cut.
+3. Hedging names a limit, or becomes the plain claim it was hiding.
 4. No costume furniture in the open or the close.
 5. Claims that need cites have them, or `claims.md` already flagged
    the gaps.

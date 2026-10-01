@@ -198,6 +198,39 @@ test("audit prompt is additive to core", () => {
 	assert.match(audit, /register tell/);
 });
 
+test("a spray is a rewrite, not a trim, on every surface", () => {
+	const core = readRule("core");
+	assert.match(core, /## Rewrite, don't amputate/);
+	assert.match(core, /not fewer\s+words/);
+	assert.match(core, /Over-spray is a smell too/);
+	assert.match(core, /\*\*Over-spray\*\*/);
+	assert.match(core, /Every real fact, feeling,\s+courtesy, and ask/);
+	assert.doesNotMatch(core, /so what remains is direct/);
+	assert.match(readRule("audit"), /Check the rewrite against the original/);
+	assert.match(readRule("claims"), /drop a real fact, feeling, or ask/);
+	assert.match(readRule("cursor"), /A spray is a rewrite, not a trim/);
+	const skill = readFileSync(
+		join(packageRoot, "skills", "smellcheck", "SKILL.md"),
+		"utf8",
+	);
+	assert.match(skill, /A spray is a rewrite, not a trim/);
+	assert.doesNotMatch(skill, /actually says something instead of just/);
+	const house = readFileSync(
+		join(packageRoot, ".cursor", "rules", "smellcheck.mdc"),
+		"utf8",
+	);
+	assert.match(house, /A spray is a rewrite, not a trim/);
+	assert.match(house, /Distant pointer/);
+	assert.match(house, /Phantom definite/);
+});
+
+test("claims voice pass uses the audit hunt list, not a shorter copy", () => {
+	const claims = readRule("claims");
+	assert.match(claims, /Same hunt list/);
+	assert.match(claims, /Score register friction/);
+	assert.doesNotMatch(claims, /Score AI smell/);
+});
+
 test("essays do not require anecdote in reference docs", () => {
 	assert.match(readRule("essays"), /not the file for reference docs/i);
 });

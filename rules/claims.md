@@ -116,22 +116,19 @@ Check for contradictions or quiet tensions:
 
 Only after Passes A-D:
 
-1. Score AI smell 1-10 with one-paragraph justification (same scale as
-   `audit.md`).
-2. Flag hard bans from `core.md`: escalation formula, honest-framing,
-   validation+profundity, narrative theater, setup-only
-   sentences, synonym antithesis, helper theater.
-3. Flag cadence budgets: signpost openers, mic-drop closers,
-   permission-slip offer, intensifier
-   filler, em-dash furniture, parallel-zinger density, flattened visual,
-   translation sentence, register seam,
-   bold-lead lists,
-   riddle labels, cozy machinery, operator notes in the brochure,
-   hand-holding the obvious, unparseable sentences.
+1. Score register friction 1-10 with one-paragraph justification
+   (same scale as `audit.md`). This is an editorial judgment, not an
+   authorship determination.
+2. Flag the hard bans from `core.md` that fire.
+3. Flag the cadence tells from `core.md` that fire. Same hunt list and
+   same single-sentence versus density split as `audit.md`. Do not
+   keep a shorter list here.
 4. Apply **corpus-applicability**: do not "correct" overlay terms when
    they are structural.
 5. Quote lines to **protect** (distinctive human voice).
 6. Do **not** let voice polish invent new overclaims.
+7. Do **not** let voice polish drop a real fact, feeling, or ask.
+   A spray is a rewrite, not a trim.
 
 If substance fails and voice is clean, say so. A clean-smelling wrong
 essay is still wrong.

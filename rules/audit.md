@@ -41,12 +41,18 @@ pass that skips the house bans.
    vocab-list hit. Apply the applicability heuristic first. A single
    "robust" that names a real property is not a finding.
 3. **Suggest a rewrite** for flagged items that are worth changing.
-   Preserve meaning. Sound like a sharp, specific writer.
+   Preserve meaning, feeling, and courtesy. Sound like a sharp,
+   specific writer. A rewrite is not a trim: keep what each sentence
+   was doing for the reader (core: *Rewrite, don't amputate*).
 4. **Identify what's working.** Quote the most distinctive lines so they
    get protected in any rewrite.
 5. **End with a prioritized fix list**: the 5 changes that would most
-   reduce the AI smell, in order of impact. The top 5 is the
+   reduce the smell, in order of impact. The top 5 is the
    deliverable. The flag list is evidence, not a to-do of 40 rewrites.
+6. **Check the rewrite against the original.** Every real fact,
+   feeling, courtesy, and ask should still be there, and the piece
+   should still sound like one person. Telegraphic or stripped prose
+   is over-spray, and over-spray is a finding.
 
 ## The tells to hunt
 
