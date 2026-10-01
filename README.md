@@ -6,9 +6,10 @@
 
 An installable writing skill for AI agents.
 
-Smell Check edits the prose you give it to remove vague claims,
-inflated language, and wording that has not earned its place. You get
-revised text back, not a report.
+Smell Check finds the habits that make writing sound generated or
+padded: the "it's not just X" pivot, the hope-this-finds-you-well
+opener, the claim nobody could check. Then it rewrites them and keeps
+your voice. You get revised text back, not a report.
 
 Smell Check is Markdown rules plus a skill folder. An agent reads
 them and edits. Nothing scans the tree. v1 has no CLI.
@@ -16,7 +17,7 @@ them and edits. Nothing scans the tree. v1 has no CLI.
 Written **Smell Check**. Prose, not code smells.
 
 **Get started:** pick the agent, install the skill, then run the
-before sentence:
+first try-it on that page:
 [smellcheck.dev/docs/install](https://smellcheck.dev/docs/install).
 
 - [Cursor](https://smellcheck.dev/docs/install#cursor)
@@ -27,28 +28,45 @@ before sentence:
 
 ## Before / after
 
-Labeled example. The retry button is a **supplied fact**, not something
-the vague sentence already contains.
+**A job announcement.**
 
-**Facts.** This release adds a Retry button to the failed-deploy screen.
-It reruns the last failed job without opening a terminal.
+> I'm thrilled to share that after an incredible journey, I've
+> officially taken the next step in my career and joined Acme as Head
+> of Partnerships. This isn't just a new role — it's a chance to shape
+> the future of how teams work together.
 
-**Before.** This release is a transformative step that will fundamentally change how operators recover from a failed deploy.
+becomes
 
-**After.** This release adds a retry button on the failed-deploy screen. Operators can rerun the last job without opening a terminal.
+> Some news: I started at Acme this week as Head of Partnerships, and
+> I'm thrilled about it.
 
-A strong word can stay when the sentence earns it: *The 2025 rewrite was transformative: checkout went from three forms to one.*
+The feeling stays. The journey, the next step, and the "not just X,
+it's Y" pivot go.
 
-Save the draft and the facts it must preserve in `deploy.md`. Then ask your agent to review that file with Smell Check. Check both the proposed wording and whether it still matches the supplied facts.
+**An email that buries the ask.**
 
-Ask (after installing the skill):
+> I hope this message finds you well. I wanted to reach out to let you
+> know that, unfortunately, we will need to reschedule Thursday's
+> meeting. I truly apologize for any inconvenience this may cause, and
+> I appreciate your understanding and flexibility.
 
-> Use Smell Check to revise `deploy.md` using only the supplied facts.
-> Follow the installed Smell Check skill. Edit that file. Do not add
-> capabilities.
+becomes
 
-Without those facts, asking what concrete change landed is acceptable.
-Do not invent capabilities.
+> I need to move Thursday's meeting. Sorry for the shuffle. What time
+> works for you instead?
+
+**A cover-letter claim.** "I have extensive experience leading
+high-impact teams" gets a question back: how many people, for how
+long, and what changed? With your answer, it becomes "I ran a
+four-person crew at the county pool for two summers and cut the
+swim-lesson waitlist in half." Smell Check does not invent the numbers.
+
+**A strong word that stays.** *The renovation transformed the kitchen:
+we took out the wall, and now it's one room.* A strong word stays when
+it points at something you can see.
+
+The [install guide](https://smellcheck.dev/docs/install) has a file to
+try it on.
 
 ## Other installation methods
 
@@ -82,8 +100,8 @@ exist in the published package under `rules/` and
 ## Boundaries
 
 Smell Check does not determine whether a human or a model wrote something, and
-it does not try to fool AI detectors. Same standard either way. If the prose
-smells, spray it.
+it does not try to fool AI detectors. It goes after the style people now call
+AI writing, whoever typed it. If the prose smells, spray it.
 
 <!-- xfacts-label -->
 

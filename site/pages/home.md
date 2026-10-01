@@ -1,12 +1,12 @@
 ---
-title: Remove inflated language and vague claims from prose.
-description: An installable writing skill for AI agents. Smell Check edits the prose you give it to remove vague claims, inflated language, and wording that has not earned its place.
+title: Rewrite the prose that smells generated or padded.
+description: Smell Check finds the habits that make writing sound generated or padded, rewrites them, and keeps your voice. An installable writing skill for AI agents.
 order: 0
 ---
 
-An installable writing skill for AI agents. Smell Check edits the prose you give it to remove vague claims, inflated language, and wording that has not earned its place. You get revised text back, not a report.
+Smell Check finds the habits that make writing sound generated or padded: the "it's not just X" pivot, the hope-this-finds-you-well opener, the claim nobody could check. Then it rewrites them and keeps your voice.
 
-An agent reads the rules and edits. Nothing scans the tree. v1 has no CLI.
+It is an installable writing skill for AI agents. You get revised text back, not a report.
 
 <div class="cta-row">
   <a class="cta cta-primary" href="/docs/install">Install in your agent</a>
@@ -15,27 +15,41 @@ An agent reads the rules and edits. Nothing scans the tree. v1 has no CLI.
 
 ## Before / after
 
-Labeled example. The retry button is a **supplied fact**, not something the vague sentence already contains.
+### A job announcement
 
-**Facts.** This release adds a Retry button to the failed-deploy screen. It reruns the last failed job without opening a terminal.
+**Before.** I'm thrilled to share that after an incredible journey, I've officially taken the next step in my career and joined Acme as Head of Partnerships. This isn't just a new role — it's a chance to shape the future of how teams work together.
 
-**Before.** This release is a transformative step that will fundamentally change how operators recover from a failed deploy.
+**After.** Some news: I started at Acme this week as Head of Partnerships, and I'm thrilled about it.
 
-**After.** This release adds a retry button on the failed-deploy screen. Operators can rerun the last job without opening a terminal.
+The feeling stays. "Incredible journey," "next step," and "isn't just a role, it's a chance" are the parts that read as generated.
 
-What changed: empty intensifiers. "Transformative" and "fundamentally change" claim a category shift they do not describe. The after version uses only the supplied facts and drops the unearned elevation. Without those facts, asking what concrete change landed is an acceptable result. Do not invent capabilities.
+### An email that buries the ask
 
-A strong word can stay when the sentence earns it:
+**Before.** I hope this message finds you well. I wanted to reach out to let you know that, unfortunately, we will need to reschedule Thursday's meeting. I truly apologize for any inconvenience this may cause, and I appreciate your understanding and flexibility.
 
-**Kept.** The 2025 rewrite was transformative: checkout went from three forms to one.
+**After.** I need to move Thursday's meeting. Sorry for the shuffle. What time works for you instead?
 
-"Transformative" names a before and an after. That is the earn-the-word test, not a banned-word list.
+The ask was buried in the middle. Now it comes first, and the apology is one human sentence instead of three formal ones.
 
-After installing the skill, save the facts and the draft as `deploy.md` and ask:
+### A cover-letter claim
 
-> Use Smell Check to revise `deploy.md` using only the supplied facts. Follow the installed Smell Check skill. Edit that file. Do not add capabilities.
+**Before.** I have extensive experience leading high-impact teams.
 
-[Install in your agent](/docs/install) · [See the files](/docs/files)
+**Smell Check asks.** How many people, for how long, and what changed?
+
+**Your answer.** I ran a crew of four at the county pool for two summers. We cut the swim-lesson waitlist in half.
+
+**After.** I ran a four-person crew at the county pool for two summers and cut the swim-lesson waitlist in half.
+
+Smell Check does not invent the numbers. When a claim has nothing behind it, it asks.
+
+### A strong word that stays
+
+**Kept.** The renovation transformed the kitchen: we took out the wall, and now it's one room.
+
+A strong word stays when it points at something you can see. That is the earn-the-word test, not a banned-word list.
+
+[Install in your agent](/docs/install) to try it on your own draft.
 
 ## What it reads, writes, and changes
 
@@ -47,13 +61,13 @@ After installing the skill, save the facts and the draft as `deploy.md` and ask:
 
 ## Boundaries
 
-Smell Check does not guess whether a human or a model wrote the sentences, and it does not try to fool detectors. Same standard either way. Fuller positioning: [About](/about).
+Smell Check does not guess whether a human or a model wrote the sentences, and it does not try to fool detectors. It goes after the style people now call AI writing, whoever typed it. Fuller positioning: [About](/about).
 
 ## Which pass
 
 Use the claims pass when the problem is truth or scope. Use the prose pass when the meaning is sound but the wording gets in the way. Add a house-style overlay when your publication has its own rules.
 
-The skill reads shared law, then a genre file if the surface needs one, then your project overlay if you wrote one. The bundled defaults are enough for a first run. The file map and load order live in [Files](/docs/files).
+The skill reads shared law, then a genre file if the surface needs one, then your project overlay if you wrote one. The bundled defaults are enough for a first run. An agent reads the rules and edits; nothing scans the tree, and v1 has no CLI. The file map and load order live in [Files](/docs/files).
 
 The npm package also exports `readRule` so a script can load the same files. That helper does not score prose.
 
