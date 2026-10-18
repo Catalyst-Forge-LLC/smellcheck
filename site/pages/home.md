@@ -4,7 +4,21 @@ description: "Give your agent an email, page, or draft. Smell Check rewrites inf
 order: 0
 ---
 
-<section class="value-hero" aria-label="Smell Check overview"><div class="value-intro"><p class="value-kind">Writing skill for your AI agent</p><h1>Keep your voice. Lose the padded prose.</h1><p class="value-lede">Give your agent an email, page, or draft. Smell Check rewrites inflated phrasing and unsupported claims while preserving the facts, feeling, and ask. You get revised text you can use.</p><div class="cta-row"><a class="cta cta-primary" href="/docs/install">Install Smell Check</a><a class="cta cta-secondary" href="#before--after">See before and after</a></div><p class="value-limit">An editorial method. It does not detect who wrote a text or invent evidence for a claim.</p></div><figure class="value-proof"><figcaption>Illustrative example</figcaption><p><strong>Starting point</strong><br>“I hope this message finds you well. I wanted to reach out…”</p><div class="value-result"><p><strong>What you get</strong><br>“I need to move Thursday’s meeting. Sorry for the shuffle. What time works for you instead?”</p></div><p>The request and courtesy remain. The opening no longer buries them.</p><p class="value-note">Illustrative edit from the examples below.</p></figure></section>
+<section class="value-hero" aria-label="Smell Check overview"><div class="value-intro"><div class="value-headline"><p class="value-kind">Writing skill for your AI agent</p><h1>Keep your voice. Lose the padded prose.</h1></div><div class="value-pitch"><p class="value-lede">Give your agent an email, page, or draft. Smell Check rewrites inflated phrasing and unsupported claims while preserving the facts, feeling, and ask. You get revised text you can use.</p><div class="cta-row"><a class="cta cta-primary" href="/docs/install">Install Smell Check</a><a class="cta cta-secondary" href="#an-email-that-buries-the-ask">See the complete email edit</a></div><p class="value-limit">An editorial method. It does not detect who wrote a text or invent evidence for a claim.</p></div></div>
+<figure class="value-proof worked-example example-pair" id="an-email-that-buries-the-ask" tabindex="-1">
+<figcaption>Put the meeting change where the reader can find it</figcaption>
+<p class="example-context">Illustrative email edit. The request and apology stay; the padding goes.</p>
+<section class="example-step" aria-labelledby="example-step-1">
+<h2 id="example-step-1"><span>Before · your draft</span> The ask is buried in the middle</h2>
+<blockquote><p>I hope this message finds you well. I wanted to reach out to let you know that, unfortunately, we will need to reschedule Thursday’s meeting. I truly apologize for any inconvenience this may cause, and I appreciate your understanding and flexibility.</p></blockquote>
+</section>
+<section class="example-step example-report" aria-labelledby="example-step-2">
+<h2 id="example-step-2"><span>After · Smell Check’s rewrite</span> The change comes first, with a clear reply</h2>
+<blockquote><p>I need to move Thursday’s meeting. Sorry for the shuffle. What time works for you instead?</p></blockquote><p class="example-payoff">The recipient can see what changed and how to answer. The apology is still there.</p>
+</section>
+<p class="value-note">Smell Check returns revised prose or edits the file you named. You review the wording before sending it. It does not send the email.</p>
+<p class="example-links"><a href="#before--after">See different examples: an announcement and a supported claim</a></p>
+</figure></section>
 
 ## Before / after
 
@@ -15,14 +29,6 @@ order: 0
 **After.** Some news: I started at Acme this week as Head of Partnerships, and I'm thrilled about it.
 
 The feeling stays. "Incredible journey," "next step," and "isn't just a role, it's a chance" are the parts that read as generated.
-
-### An email that buries the ask
-
-**Before.** I hope this message finds you well. I wanted to reach out to let you know that, unfortunately, we will need to reschedule Thursday's meeting. I truly apologize for any inconvenience this may cause, and I appreciate your understanding and flexibility.
-
-**After.** I need to move Thursday's meeting. Sorry for the shuffle. What time works for you instead?
-
-The ask was buried in the middle. Now it comes first, and the apology is one human sentence instead of three formal ones.
 
 ### A cover-letter claim
 
