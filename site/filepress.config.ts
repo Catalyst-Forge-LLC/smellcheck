@@ -5,10 +5,9 @@ const npm = 'https://www.npmjs.com/package/smellcheck';
 
 export default defineFilepressConfig({
 	title: 'Smell Check',
-	description:
-		'An installable writing skill for AI agents. Editorial rules for prose that says something instead of sounding like it.',
+	description: "Give your agent an email, page, or draft. Smell Check rewrites inflated phrasing and unsupported claims while preserving the facts, feeling, and ask. You get revised text you can use.",
 	tagline: 'Have you smell-checked that?',
-	lede: 'Prose · claims · earned words',
+	lede: "Writing skill for your AI agent",
 	url: 'https://smellcheck.dev',
 	author: 'Catalyst Forge LLC',
 	logo: '/logo.png',

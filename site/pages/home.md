@@ -1,17 +1,10 @@
 ---
-title: Rewrite the prose that smells generated or padded.
-description: Smell Check finds the habits that make writing sound generated or padded, rewrites them, and keeps your voice. An installable writing skill for AI agents.
+title: "Keep your voice. Lose the padded prose."
+description: "Give your agent an email, page, or draft. Smell Check rewrites inflated phrasing and unsupported claims while preserving the facts, feeling, and ask. You get revised text you can use."
 order: 0
 ---
 
-Smell Check finds the habits that make writing sound generated or padded: the "it's not just X" pivot, the hope-this-finds-you-well opener, the claim nobody could check. Then it rewrites them and keeps your voice.
-
-It is an installable writing skill for AI agents. You get revised text back, not a report.
-
-<div class="cta-row">
-  <a class="cta cta-primary" href="/docs/install">Install in your agent</a>
-  <a class="cta cta-secondary" href="https://github.com/Catalyst-Forge-LLC/smellcheck">View on GitHub</a>
-</div>
+<section class="value-hero" aria-label="Smell Check overview"><div class="value-intro"><p class="value-kind">Writing skill for your AI agent</p><h1>Keep your voice. Lose the padded prose.</h1><p class="value-lede">Give your agent an email, page, or draft. Smell Check rewrites inflated phrasing and unsupported claims while preserving the facts, feeling, and ask. You get revised text you can use.</p><div class="cta-row"><a class="cta cta-primary" href="/docs/install">Install Smell Check</a><a class="cta cta-secondary" href="#before--after">See before and after</a></div><p class="value-limit">An editorial method. It does not detect who wrote a text or invent evidence for a claim.</p></div><figure class="value-proof"><figcaption>Illustrative example</figcaption><p><strong>Starting point</strong><br>“I hope this message finds you well. I wanted to reach out…”</p><div class="value-result"><p><strong>What you get</strong><br>“I need to move Thursday’s meeting. Sorry for the shuffle. What time works for you instead?”</p></div><p>The request and courtesy remain. The opening no longer buries them.</p><p class="value-note">Illustrative edit from the examples below.</p></figure></section>
 
 ## Before / after
 
