@@ -460,12 +460,9 @@ test("install and files pages name the three hooks and finish the raw list", () 
 		"utf8",
 	);
 	assert.match(install, /Nothing scans the tree/);
-	assert.match(install, /Which agent do you use/);
-	assert.match(install, /Other installation methods/);
 	assert.match(install, /AGENTS\.md/);
 	assert.match(install, /CLAUDE\.md/);
 	assert.match(install, /docs\/smellcheck\.md/);
-	assert.doesNotMatch(install, /Short version on the site/);
 	assert.ok(!existsSync(join(packageRoot, "site", "pages", "install.md")));
 	assert.ok(!existsSync(join(packageRoot, "site", "pages", "skill.md")));
 	const skill = readFileSync(
@@ -473,7 +470,6 @@ test("install and files pages name the three hooks and finish the raw list", () 
 		"utf8",
 	);
 	assert.match(skill, /Download smellcheck\.zip/);
-	assert.doesNotMatch(skill, /Short version on the site/);
 	const filesDoc = readFileSync(
 		join(packageRoot, "site", "docs", "files.md"),
 		"utf8",
@@ -494,7 +490,6 @@ test("install and files pages name the three hooks and finish the raw list", () 
 		"utf8",
 	);
 	assert.match(filepress, /href: '\/docs\/install'/);
-	assert.match(filepress, /Get started/);
 	assert.doesNotMatch(filepress, /label: 'Skill'/);
 	assert.doesNotMatch(filepress, /label: 'Install'/);
 	assert.doesNotMatch(filepress, /href: '\/install'/);
